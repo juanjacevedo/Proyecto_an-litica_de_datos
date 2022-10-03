@@ -1,1 +1,6 @@
 pydeck == 0.7.1
+pandas
+plotly
+streamlit
+datetime
+openpyxl
