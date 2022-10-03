@@ -10,7 +10,6 @@ from streamlit.components.v1 import html
 import geojson as gj
 import requests as rq
 import pydeck as pdk
-import math
 
 
 st.set_page_config(layout="wide") ##Para que la página siempre inicie en "formato ancho", que use toda la pantalla 
