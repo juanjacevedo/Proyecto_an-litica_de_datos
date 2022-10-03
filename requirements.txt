@@ -5,3 +5,13 @@ streamlit
 datetime
 openpyxl
 matplotlib
+numpy
+seaborn
+plotly.express
+plotly.subplots
+plotly.graph_objects
+streamlit.components.v1
+geojson
+requests
+pydeck
+math
