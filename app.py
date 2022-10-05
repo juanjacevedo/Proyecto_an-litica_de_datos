@@ -1,16 +1,11 @@
 import pandas as pd
 import numpy as np
-import matplotlib as plt
-import seaborn as sns
 import plotly.express as px
-from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import streamlit as st
 from streamlit.components.v1 import html
-import geojson as gj
-import requests as rq
 import pydeck as pdk
-
+from PIL import Image
 
 st.set_page_config(layout="wide") ##Para que la página siempre inicie en "formato ancho", que use toda la pantalla 
 # Datos
@@ -66,13 +61,21 @@ coorde['LNG'] = coord['LNG']
 # # Execute your app
 # st.title("Javascript example")
 # html(my_html)
-
 st.markdown("<h1 style='text-align: center;'>Educación superior y educación para el trabajo y el desarrollo humano en Colombia </h1>", unsafe_allow_html=True)
 
-
-tab1, tab2, tab3= st.tabs(["IETDH", "INSTITUCIONES DE EDUCACIÓN SUPERIOR",'ESTADISTICAS'])
+tab1, tab2, tab3, tab4= st.tabs(["CONTEXTO","IETDH", "INSTITUCIONES DE EDUCACIÓN SUPERIOR",'ESTADISTICAS'])
 
 with tab1:
+    image = Image.open('gente_estudiando.jpg')
+    st.image(image)
+    intro = """<p>La educación superior en Colombia está dividida en dos frentes: Instituciones Educación Superior (IES) e Instituciones de Educación para el Trabajo y el Desarrollo Humano (IETDH), esto con el fin de ofrecer mayor cobertura educativa, desarrollo profesional y alternativas de adquisición de competencias académicas y laborales a la población en general, en especial a los estudiantes de educación media.
+    Sin embargo, Melo, Ramos y Hernández [1] sostienen que: ¨La calidad del sistema de educación superior es heterogénea, ya que coexisten instituciones bien organizadas y reconocidas por su excelencia, con instituciones caracterizadas por bajos niveles de calidad. Además, no existe una conexión clara entre las necesidades del sector productivo y la formación profesional, lo cual constituye una limitación para el desarrollo económico del país¨.
+    Este contexto, sumado a políticas de estado que buscan ampliar la cobertura educativa profesional, hacen que en los últimos 20 años el sector productivo impulse la creación de IETDH con el fin de obtener mano de obra calificada, posteriormente capacitada dentro de la industria para realizar labores propias de un profesional educado en una IES. Esto trae como beneficio una reducción de costos en contratación, ya que los rangos de salarios entre un técnico o tecnólogo de una IETDH y un profesional de una IES son diferentes debido a la diferencia de preparación académica entre uno y otro.
+    El objetivo de este estudio es analizar las tendencias de crecimiento y cobertura de estos tipos de instituciones educativas, así como la calidad y sus históricos de matrícula.</p>"""
+    st.markdown(intro, unsafe_allow_html=True)
+    st.write("Repositorio: [GitHub](https://github.com/juanjacevedo/Proyecto_analitica_de_datos.git)")
+
+with tab2:
     col1, col2 = st.columns([3, 1])
 
     df = pd.DataFrame()
@@ -84,39 +87,40 @@ with tab1:
     data['MUNICIPIO'] = men_ietdh2['MUNICIPIO']
     data['NOMBRE INSTITUCION'] = men_ietdh2['NOMBRE_INSTITUCION']
 
-    col2.markdown("<h5 style='text-align: center;'>Municipios</h5>", unsafe_allow_html=True)
+    col2.markdown("<h5 style='text-align: center;'>Municipios y sus instituciones</h5>", unsafe_allow_html=True)
     col2.dataframe(data)
 
-    col2.markdown("<br/><br/><h5 style='text-align: center;'>Cantidad de instituciones por municipio</h5>", unsafe_allow_html=True)
-    col2.dataframe(men_ietdh2.groupby(['MUNICIPIO'])[['NOMBRE_INSTITUCION']].count().sort_values('NOMBRE_INSTITUCION', ascending = False).rename(columns = {'NOMBRE_INSTITUCION' : 'NOMBRE INSTITUCIÓN'}).reset_index())
+    col2.markdown("<br/><br/><h5 style='text-align: center;'>Cantidad de instituciones por Municipio</h5>", unsafe_allow_html=True)
+#    col2.dataframe(men_ietdh2.groupby(['DEPARTAMENTO'])[['NOMBRE_INSTITUCION']].count().sort_values('NOMBRE_INSTITUCION', ascending = False).rename(columns = {'NOMBRE_INSTITUCION' : 'CANTIDAD'}).reset_index())
+###################################################
+    municipio =men_ietdh2.groupby(['MUNICIPIO'])[['NOMBRE_INSTITUCION']].count().sort_values('NOMBRE_INSTITUCION', ascending = False).rename(columns = {'NOMBRE_INSTITUCION' : 'CANTIDAD'}).reset_index()
+    col2.write(municipio)
+    
+    # col2.write(municipio_ietdh)
 
+    col1.write(pdk.Deck( # Código para crear el mapa
+    
+        # Set up del mapa
+        map_style='mapbox://styles/mapbox/dark-v10',
+        initial_view_state={
+            'latitude' : men_ietdh2['LAT'].mean(),
+            'longitude': men_ietdh2['LNG'].mean(),
+            'zoom' : 4.8,
+            'pitch': 30
+            },
+        
+        # Capa con información
+        layers = [pdk.Layer(
+            'HexagonLayer',
+            data = men_ietdh2[['LAT','LNG']],
+            get_position = ['LNG','LAT'],
+            radius = 5000,
+            extruded = True,
+            elevation_scale =500,
+            elevation_range = [0,1000])]
+    )) 
 
-    layer = pdk.Layer(
-        "ScatterplotLayer",
-        men_esta,
-        pickable=True,
-        opacity=0.8,
-        stroked=True,
-        filled=True,
-        radius_scale=6,
-        radius_min_pixels=1,
-        radius_max_pixels=100,
-        line_width_min_pixels=1,
-        get_position="COORDENADAS",
-        get_radius="CONTEO",
-        get_fill_color=[255, 140, 0],
-        get_line_color=[0, 0, 0],
-    )
-
-    # Set the viewport location
-    view_state = pdk.ViewState(latitude=4.495415131183657, longitude=-73.5789506384306, zoom=2, bearing=0, pitch=0)
-
-    # Render
-    r = pdk.Deck(layers=[layer], initial_view_state=view_state, tooltip={"text": "{name}\n{address}"})
-    r.to_html("scatterplot_layer.html")
-    col1.write(r)
-
-with tab2:
+with tab3:
     col1, col2 = st.columns([3, 1])
     men_esta['COORDENADAS'] = men_esta['LAT'].astype(str) + ', ' + men_esta['LNG'].astype(str)
 
@@ -130,11 +134,11 @@ with tab2:
 
     col1.map(df)
 
-    col2.markdown("<h5 style='text-align: center;'>Municipios</h5>", unsafe_allow_html=True)
+    col2.markdown("<h5 style='text-align: center;'>Municipios y sus instituciones</h5>", unsafe_allow_html=True)
     col2.dataframe(data)
 
-    col2.markdown("<br/><br/><h5 style='text-align: center;'>Cantidad de instituciones por municipio</h5>", unsafe_allow_html=True)
-    col2.dataframe(men_esta.groupby(['MUNICIPIO'])[['NOMBRE INSTITUCIÓN']].count().sort_values('NOMBRE INSTITUCIÓN', ascending = False).reset_index())
+    col2.markdown("<br/><br/><h5 style='text-align: center;'>Cantidad de instituciones por Municipio</h5>", unsafe_allow_html=True)
+
 
 
     # Set the viewport location
@@ -149,33 +153,37 @@ with tab2:
     # df["exits_radius"] = df["exits"].apply(lambda exits_count: math.sqrt(exits_count))
 
     # Define a layer to display on a map
-    layer = pdk.Layer(
-        "ScatterplotLayer",
-        men_esta,
-        pickable=True,
-        opacity=0.8,
-        stroked=True,
-        filled=True,
-        radius_scale=6,
-        radius_min_pixels=1,
-        radius_max_pixels=100,
-        line_width_min_pixels=1,
-        get_position="COORDENADAS",
-        get_radius="CONTEO",
-        get_fill_color=[255, 140, 0],
-        get_line_color=[0, 0, 0],
-    )
+    municipio1 =men_esta.groupby(['MUNICIPIO'])[['NOMBRE INSTITUCIÓN']].count().sort_values('NOMBRE INSTITUCIÓN', ascending = False).rename(columns = {'NOMBRE INSTITUCIÓN' : 'CANTIDAD'}).reset_index()
+    col2.write(municipio1)
+    
+    # col2.write(municipio_ietdh)
 
-    # Set the viewport location
-    view_state = pdk.ViewState(latitude=4.495415131183657, longitude=-73.5789506384306, zoom=2, bearing=0, pitch=0)
+    col1.write(pdk.Deck( # Código para crear el mapa
+    
+        # Set up del mapa
+        map_style='mapbox://styles/mapbox/dark-v10',
+        initial_view_state={
+            'latitude' : men_esta['LAT'].mean(),
+            'longitude': men_esta['LNG'].mean(),
+            'zoom' : 4.8,
+            'pitch': 30
+            },
+        
+        # Capa con información
+        layers = [pdk.Layer(
+            'HexagonLayer',
+            data = men_esta[['LAT','LNG']],
+            get_position = ['LNG','LAT'],
+            radius = 5000,
+            extruded = True,
+            elevation_scale =500,
+            elevation_range = [0,1000])]
+    )) 
 
-    # Render
-    r = pdk.Deck(layers=[layer], initial_view_state=view_state, tooltip={"text": "{name}\n{address}"})
-    r.to_html("scatterplot_layer.html")
-    col1.write(r)
 
 ##################### GRAFICAS ESTADISTICAS #############################
-with tab3:
+with tab4:
+    st.markdown("<br/><br/><h2 style='text-align: center;'>Total matriculados</h2>", unsafe_allow_html=True)
     col1, col2 = st.columns((1,1))
     #Metodo para remodelar o transformar un DataFrame existente 
     #Metodo para remodelar o transformar un DataFrame existente
@@ -202,6 +210,7 @@ with tab3:
 
     fig = px.bar(df2, x='AÑO', y='TOTAL MATRICULADOS', title ='<b>Total matriculados en IETDH<b>', height=450, width=800)
 
+
     # agregar detalles a la gráfica
     fig.update_layout(
         xaxis_title = 'Año',
@@ -211,6 +220,8 @@ with tab3:
         width = 700,
         height = 500)
 
+    
+    
     col1.write(fig)
 
 
@@ -218,7 +229,7 @@ with tab3:
         # crear dataset
     df2 = mat_meta.groupby(['AÑO'])[['TOTAL MATRICULADOS']].sum().reset_index()
 
-    fig = px.bar(df2, x='AÑO', y='TOTAL MATRICULADOS', title ='<b>Total matriculados en IE<b>')
+    fig = px.bar(df2, x='AÑO', y='TOTAL MATRICULADOS', title ='<b>Total matriculados en IES<b>')
 
     # agregar detalles a la gráfica
     fig.update_layout(
@@ -230,13 +241,15 @@ with tab3:
         height = 500)
     col2.write(fig)
 
-    
+
+    st.markdown("<br/><br/><h2 style='text-align: center;'>Certificado de calidad</h2>", unsafe_allow_html=True)
+    col1, col2 = st.columns((1,1))
 ##¿Cuántas y que porcentaje instituciones de educación superior están acreditadas con alta calidad?
     # crear dataset
     base = men_esta.groupby(['¿ACREDITADA ALTA CALIDAD?'])[['CARÁCTER ACADÉMICO']].count().reset_index()
 
     # crear gráfica
-    fig = px.pie(base , values = 'CARÁCTER ACADÉMICO', names = '¿ACREDITADA ALTA CALIDAD?', title = '<b>% instituciones con acreditación de alta calidad de IE<b>', hole = .3)
+    fig = px.pie(base , values = 'CARÁCTER ACADÉMICO', names = '¿ACREDITADA ALTA CALIDAD?', title = '<b>% instituciones con acreditación de alta calidad de IES<b>', hole = .3)
 
     # agregar detalles a la gráfica
     fig.update_layout(
@@ -244,10 +257,11 @@ with tab3:
         legend_title = 'Caracter academico',
         title_x = 0.5)
 
-    col1.write(fig)
+    col2.write(fig)
 
 ##¿Qué porcentaje de las IETDH cuentan con certificado de calidad?
     # crear dataset
+    
     base = men_ietdh2.groupby(['CERTIFICADO_CALIDAD'])[['NOMBRE_INSTITUCION']].count().reset_index()
 
     # crear gráfica
@@ -260,16 +274,17 @@ with tab3:
         title_x = 0.5
     )
     #fig.update_traces(textposition='inside', textinfo='percent+label',insidetextorientation='radial')
-    col2.write(fig2)
+    col1.write(fig2)
 
 
-#   col1, col2 = st.columns((1,2))
+    st.markdown("<br/><br/><h2 style='text-align: center;'>Tipos de IES y acreditación de calidad</h2>", unsafe_allow_html=True)
+    col1, col2 = st.columns((1,1))
 
 ##¿En qué porcentajes se dividen las instituciones de educación superior?
     # crear dataset
     base = men_esta.groupby(['CARÁCTER ACADÉMICO'])[['NOMBRE INSTITUCIÓN']].count().reset_index()
     # crear gráfica
-    fig = px.pie(base , values = 'NOMBRE INSTITUCIÓN', names = 'CARÁCTER ACADÉMICO' ,  title = '<b>% de las diferentes IE', hole = .3)
+    fig = px.pie(base , values = 'NOMBRE INSTITUCIÓN', names = 'CARÁCTER ACADÉMICO' ,  title = '<b>% de las diferentes IES', hole = .3)
 
     # agregar detalles a la gráfica
     fig.update_layout(
@@ -283,7 +298,7 @@ with tab3:
     # crear dataset
     base = men_esta.groupby(['¿ACREDITADA ALTA CALIDAD?','CARÁCTER ACADÉMICO'])[['NOMBRE INSTITUCIÓN']].count().reset_index()
 
-    fig = px.bar(base, x='¿ACREDITADA ALTA CALIDAD?', y='NOMBRE INSTITUCIÓN',color = 'CARÁCTER ACADÉMICO', barmode= 'group', title ='<b>Estado de acreditación de las IE segun carácter academico<b>', text_auto=True)
+    fig = px.bar(base, x='¿ACREDITADA ALTA CALIDAD?', y='NOMBRE INSTITUCIÓN',color = 'CARÁCTER ACADÉMICO', barmode= 'group', title ='<b>Estado de acreditación de las IES segun carácter academico<b>', text_auto=True)
 
     # agregar detalles a la gráfica
     fig.update_layout(
@@ -294,7 +309,8 @@ with tab3:
     
     col2.write(fig)
 
-
+    st.markdown("<br/><br/><h2 style='text-align: center;'>Total de matriculados por municipio</h2>", unsafe_allow_html=True)
+    col1, col2 = st.columns((1,1))
 ## ¿Cuáles son los 5 municipios con mayor cantidad de estudiantes matriculados para las instituciones de Ed superior y IETDH?
 
     # crear dataset Educación Superior
@@ -302,7 +318,7 @@ with tab3:
     x = base1
     # sort_values('TOTAL MATRICULADOS', ascending = False)
     # crear gráfica
-    fig = px.pie(x , values = 'TOTAL MATRICULADOS', names = 'MUNICIPIO DOMICILIO', title = '<b>% Total de Matriculados por ciudades en instituciones Educación Superior<b>', hole = .3)
+    fig = px.pie(x , values = 'TOTAL MATRICULADOS', names = 'MUNICIPIO DOMICILIO', title = '<b>% Municipios con mayor cantidad de IES<b>', hole = .3)
 
     # agregar detalles a la gráfica
     fig.update_layout(
@@ -319,7 +335,7 @@ with tab3:
 
 
     # crear gráfica
-    fig = px.pie(y , values = 'TOTAL MATRICULADOS', names = 'MUNICIPIO', title = '<b>% Total de Matriculados por ciudades en instituciones IETDH<b>', hole = .3)
+    fig = px.pie(y , values = 'TOTAL MATRICULADOS', names = 'MUNICIPIO', title = '<b>Municipios con mayor cantidad de IETDH<b>', hole = .3)
 
     # agregar detalles a la gráfica
     fig.update_layout(
@@ -329,6 +345,8 @@ with tab3:
 
     col2.write(fig)
 
+    st.markdown("<br/><br/><h2 style='text-align: center;'>Total de instituciones por municipio</h2>", unsafe_allow_html=True)
+    col1, col2 = st.columns((1,1))
  ##  ¿Cuáles son los 5 municipios con mayor cantidad de instituciones para las instituciones de Ed superior y IETDH?
 
     # crear dataset Educación Superior
@@ -382,7 +400,7 @@ with tab3:
 
     # definir figura
     fig = go.Figure([go.Bar(x=oficiales.index, y=oficiales['counts'], yaxis='y1', name='sessions id'),
-                    go.Scatter(x=oficiales.index, y=oficiales['ratio'], yaxis='y2', name='Universidades oficiales', hovertemplate='%{y:.1%}', marker={'color': '#000000'})])
+                    go.Scatter(x=oficiales.index, y=oficiales['ratio'], yaxis='y2', name='Universidades oficiales', hovertemplate='%{y:.1%}', marker={'color': '#FC0000'})])
 
     # agregar detalles
     fig.update_layout(template='plotly_white', showlegend=False, hovermode='x', bargap=.3,
@@ -392,6 +410,7 @@ with tab3:
                     width = 800,
                     height = 800)
 
+    col2.markdown("<br/><br/><h2 style='text-align: center;'>Cantidad de IES publicas y privadas por departamento</h2>", unsafe_allow_html=True)
     col2.write(fig)
 ###################################################
 #     # privada_DB
@@ -401,7 +420,7 @@ with tab3:
 
     # definir figura
     fig2 = go.Figure([go.Bar(x=privadas.index, y=privadas['counts'], yaxis='y1', name='sessions id'),
-                    go.Scatter(x=privadas.index, y=privadas['ratio'], yaxis='y2', name='Universidades privadas', hovertemplate='%{y:.1%}', marker={'color': '#000000'})])
+                    go.Scatter(x=privadas.index, y=privadas['ratio'], yaxis='y2', name='Universidades privadas', hovertemplate='%{y:.1%}', marker={'color': '#FC0000'})])
 
     # agregar detalles
     fig2.update_layout(template='plotly_white', showlegend=False, hovermode='x', bargap=.3,
@@ -415,7 +434,7 @@ with tab3:
 
 ## ¿Cuantás instituciones hay de caracter publico, privado y mixta para las IETDH?
 
-
+    col2.markdown("<br/><br/><h2 style='text-align: center;'>Cantidad de IETDH oficiales, privadas y mixtas por departamento</h2>", unsafe_allow_html=True)
 
     # oficial_DB
     oficial = men_ietdh2[men_ietdh2['NATURALEZA'] == 'oficial'].reset_index()
@@ -424,7 +443,7 @@ with tab3:
 
     # definir figura
     fig = go.Figure([go.Bar(x=oficiales.index, y=oficiales['counts'], yaxis='y1', name='sessions id'),
-                    go.Scatter(x=oficiales.index, y=oficiales['ratio'], yaxis='y2', name='Instituciones', hovertemplate='%{y:.1%}', marker={'color': '#000000'})])
+                    go.Scatter(x=oficiales.index, y=oficiales['ratio'], yaxis='y2', name='Instituciones', hovertemplate='%{y:.1%}', marker={'color': '#FC0000'})])
 
     # agregar detalles
     fig.update_layout(template='plotly_white', showlegend=False, hovermode='x', bargap=.3,
@@ -444,7 +463,7 @@ with tab3:
 
     # definir figura
     fig2 = go.Figure([go.Bar(x=privados.index, y=privados['counts'], yaxis='y1', name='sessions id'),
-                    go.Scatter(x=privados.index, y=privados['ratio'], yaxis='y2', name='Instituciones', hovertemplate='%{y:.1%}', marker={'color': "#E1E5F2"})])
+                    go.Scatter(x=privados.index, y=privados['ratio'], yaxis='y2', name='Instituciones', hovertemplate='%{y:.1%}', marker={'color': "#FC0000"})])
 
     # agregar detalles
     fig2.update_layout(template='plotly_white', showlegend=False, hovermode='x', bargap=.3,

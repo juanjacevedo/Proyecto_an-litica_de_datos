@@ -1,233 +1,355 @@
 ,CÓDIGO INSTITUCIÓN,NOMBRE INSTITUCIÓN,PRINCIPAL/SECCIONAL,NATURALEZA JURÍDICA,SECTOR,CARÁCTER ACADÉMICO,DEPARTAMENTO DOMICILIO,MUNICIPIO,¿ACREDITADA ALTA CALIDAD?,LAT,LNG,CONTEO
-0,1102,universidad nacional de colombia,seccional,nacional,oficial,universidad,antioquia,medellin,no,6.2447,-75.5748,34
-1,1103,universidad nacional de colombia,seccional,nacional,oficial,universidad,caldas,manizales,no,5.0661,-75.4847,5
-2,1104,universidad nacional de colombia,seccional,nacional,oficial,universidad,valle del cauca,palmira,no,3.5394,-76.3036,4
-3,1106,universidad pedagogica y tecnologica de colombia - uptc,principal,nacional,oficial,universidad,boyaca,tunja,si,5.5403,-73.3614,4
-4,1107,universidad pedagogica y tecnologica de colombia - uptc,seccional,nacional,oficial,universidad,boyaca,duitama,si,5.8219,-73.0297,1
-5,1108,universidad pedagogica y tecnologica de colombia - uptc,seccional,nacional,oficial,universidad,boyaca,sogamoso,si,5.7158,-72.9333,1
-6,1109,universidad pedagogica y tecnologica de colombia - uptc,seccional,nacional,oficial,universidad,boyaca,chiquinquira,si,5.6175,-73.8164,1
-7,1110,universidad del cauca,principal,nacional,oficial,universidad,cauca,popayan,si,2.4411,-76.6061,6
-8,1111,universidad tecnologica de pereira - utp,principal,nacional,oficial,universidad,risaralda,pereira,si,4.8143,-75.6946,6
-9,1112,universidad de caldas,principal,nacional,oficial,universidad,caldas,manizales,si,5.0661,-75.4847,5
-10,1113,universidad de cordoba,principal,nacional,oficial,universidad,cordoba,monteria,si,8.76,-75.8856,3
-11,1114,universidad surcolombiana,principal,nacional,oficial,universidad,huila,neiva,si,2.9275,-75.2875,4
-12,1115,universidad de la amazonia,principal,nacional,oficial,universidad,caqueta,florencia,no,1.6142,-75.6117,2
-13,1115,universidad de la amazonia,principal,nacional,oficial,universidad,caqueta,florencia,no,1.6822,-77.0722,2
-14,1118,universidad tecnologica del choco-diego luis cordoba,principal,nacional,oficial,universidad,choco,quibdo,no,5.6923,-76.6582,2
-15,1119,universidad de los llanos,principal,nacional,oficial,universidad,meta,villavicencio,no,4.1425,-73.6294,2
-16,1120,universidad popular del cesar,principal,nacional,oficial,universidad,cesar,valledupar,no,10.4603,-73.2597,1
-17,1122,universidad del pacifico,principal,nacional,oficial,universidad,valle del cauca,buenaventura,no,3.8772,-77.0267,2
-18,1123,universidad popular del cesar,seccional,nacional,oficial,universidad,cesar,aguachica,no,8.3067,-73.6153,1
-19,1124,universidad nacional de colombia,seccional,nacional,oficial,universidad,arauca,arauca,si,7.0903,-70.7617,1
-20,1125,universidad nacional de colombia,seccional,nacional,oficial,universidad,amazonas,leticia,si,-4.215,-69.9411,1
-21,1126,universidad nacional de colombia,seccional,nacional,oficial,universidad,archipielago de san andres providencia y santa catalina,san andres,si,12.5847,-81.7006,6
-22,1126,universidad nacional de colombia,seccional,nacional,oficial,universidad,archipielago de san andres providencia y santa catalina,san andres,si,6.9033,-75.6825,6
-23,1126,universidad nacional de colombia,seccional,nacional,oficial,universidad,archipielago de san andres providencia y santa catalina,san andres,si,6.8115,-72.8493,6
-24,1201,universidad de antioquia,principal,departamental,oficial,universidad,antioquia,medellin,si,6.2447,-75.5748,34
-25,1202,universidad del atlantico,principal,departamental,oficial,universidad,atlantico,puerto colombia,si,10.9922,-74.9528,1
-26,1203,universidad del valle,principal,departamental,oficial,universidad,valle del cauca,cali,si,3.44,-76.5197,23
-27,1204,universidad industrial de santander,principal,departamental,oficial,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
-28,1206,universidad de nariño,principal,departamental,oficial,universidad,nariño,pasto,si,1.2136,-77.2811,5
-29,1207,universidad del tolima,principal,departamental,oficial,universidad,tolima,ibague,si,4.4378,-75.2006,3
-30,1208,universidad del quindio,principal,departamental,oficial,universidad,quindio,armenia,si,4.5389,-75.6725,10
-31,1208,universidad del quindio,principal,departamental,oficial,universidad,quindio,armenia,si,6.1564,-75.7858,10
-32,1210,universidad francisco de paula santander,seccional,departamental,oficial,universidad,norte de santander,ocaña,no,8.2461,-73.3553,1
-33,1212,universidad de pamplona,principal,departamental,oficial,universidad,norte de santander,pamplona,no,7.3761,-72.6483,2
-34,1213,universidad del magdalena - unimagdalena,principal,departamental,oficial,universidad,magdalena,santa marta,si,11.2361,-74.2017,3
-35,1214,universidad de cundinamarca-udec,principal,departamental,oficial,universidad,cundinamarca,fusagasuga,no,4.3372,-74.3644,1
-36,1215,universidad de cundinamarca-udec,seccional,departamental,oficial,universidad,cundinamarca,girardot,no,4.3036,-74.8039,2
-37,1216,universidad de cundinamarca-udec,seccional,departamental,oficial,universidad,cundinamarca,villa de san diego de ubate,no,5.3072,-73.8144,1
-38,1217,universidad de sucre,principal,departamental,oficial,universidad,sucre,sincelejo,no,9.2994,-75.3958,3
-39,1218,universidad de la guajira,principal,departamental,oficial,universidad,la guajira,riohacha,no,11.5442,-72.9069,1
-40,1220,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,andes,no,5.6556,-75.8803,1
-41,1221,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,caucasia,no,7.9865,-75.1935,1
-42,1222,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,puerto berrio,no,6.4906,-74.4047,1
-43,1223,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,turbo,no,8.0931,-76.7283,1
-44,1702,pontificia universidad javeriana,seccional,fundacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
-45,1705,universidad santo tomas,seccional,fundacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
-46,1710,universidad pontificia bolivariana,principal,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
-47,1711,universidad de la sabana,principal,fundacion,privada,universidad,cundinamarca,chia,si,4.8633,-74.0528,3
-48,1712,universidad eafit-,principal,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
-49,1713,universidad del norte,principal,fundacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
-50,1716,universidad de san buenaventura,seccional,fundacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
-51,1717,universidad de san buenaventura,seccional,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
-52,1720,universidad mariana,principal,fundacion,privada,universidad,nariño,pasto,no,1.2136,-77.2811,5
-53,1722,universidad de manizales,principal,fundacion,privada,universidad,caldas,manizales,si,5.0661,-75.4847,5
-54,1723,universidad pontificia bolivariana,seccional,fundacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
-55,1726,universidad catolica de oriente -uco,principal,fundacion,privada,universidad,antioquia,rionegro,si,6.1551,-75.3737,2
-56,1726,universidad catolica de oriente -uco,principal,fundacion,privada,universidad,antioquia,rionegro,si,7.2646,-73.1501,2
-57,1727,universidad pontificia bolivariana,seccional,fundacion,privada,universidad,cordoba,monteria,si,8.76,-75.8856,3
-58,1730,universidad pontificia bolivariana,seccional,fundacion,privada,universidad,valle del cauca,palmira,si,3.5394,-76.3036,4
-59,1731,universidad catolica de colombia,seccional,fundacion,privada,universidad,cundinamarca,chia,no,4.8633,-74.0528,3
-60,1732,universidad santo tomas,seccional,fundacion,privada,universidad,boyaca,tunja,si,5.5403,-73.3614,4
-61,1733,universidad sergio arboleda,seccional,fundacion,privada,universidad,magdalena,santa marta,si,11.2361,-74.2017,3
-62,1734,universidad de boyaca uniboyaca,principal,fundacion,privada,universidad,boyaca,tunja,no,5.5403,-73.3614,4
-63,1802,universidad la gran colombia,seccional,corporacion,privada,universidad,quindio,armenia,no,4.5389,-75.6725,10
-64,1802,universidad la gran colombia,seccional,corporacion,privada,universidad,quindio,armenia,no,6.1564,-75.7858,10
-65,1804,universidad autonoma del caribe- uniautonoma,principal,corporacion,privada,universidad,atlantico,barranquilla,no,10.9639,-74.7964,16
-66,1805,universidad santiago de cali,principal,corporacion,privada,universidad,valle del cauca,cali,no,3.44,-76.5197,23
-67,1807,universidad libre,seccional,corporacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
-68,1808,universidad libre,seccional,corporacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
-69,1809,universidad libre,seccional,corporacion,privada,universidad,risaralda,pereira,si,4.8143,-75.6946,6
-70,1811,universidad libre,seccional,corporacion,privada,universidad,santander,socorro,si,6.4603,-73.27,1
-71,1812,universidad de medellin,principal,corporacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
-72,1814,universidad autonoma latinoamericana-unaula-,principal,corporacion,privada,universidad,antioquia,medellin,no,6.2447,-75.5748,34
-73,1816,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,antioquia,medellin,no,6.2447,-75.5748,34
-74,1817,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,santander,bucaramanga,no,7.1186,-73.1161,14
-75,1819,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,santander,barrancabermeja,no,7.0675,-73.8472,3
-76,1820,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,magdalena,santa marta,no,11.2361,-74.2017,3
-77,1822,corporacion universidad piloto de colombia,seccional,corporacion,privada,universidad,cundinamarca,girardot,no,4.3036,-74.8039,2
-78,1823,universidad autonoma de bucaramanga-unab-,principal,corporacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
-79,1824,universidad metropolitana,principal,corporacion,privada,universidad,atlantico,barranquilla,no,10.9639,-74.7964,16
-80,1825,universidad autonoma de manizales,principal,corporacion,privada,universidad,caldas,manizales,si,5.0661,-75.4847,5
-81,1827,universidad catolica de manizales,principal,corporacion,privada,universidad,caldas,manizales,si,5.0661,-75.4847,5
-82,1828,universidad icesi,principal,corporacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
-83,1829,universidad santiago de cali,seccional,corporacion,privada,universidad,valle del cauca,palmira,no,3.5394,-76.3036,4
-84,1830,universidad autonoma de occidente,principal,corporacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
-85,1831,universidad de ibague,principal,corporacion,privada,universidad,tolima,ibague,si,4.4378,-75.2006,3
-86,1833,universidad del sinu - elias bechara zainum - unisinu -,principal,corporacion,privada,universidad,cordoba,monteria,si,8.76,-75.8856,3
-87,2110,colegio mayor de antioquia,principal,municipal,oficial,escuela tecnologica,antioquia,medellin,si,6.2447,-75.5748,34
-88,2111,escuela superior de administracion publica-esap-,seccional,nacional,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-89,2114,escuela nacional del deporte,principal,municipal,oficial,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-90,2206,instituto departamental de bellas artes,principal,departamental,oficial,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-91,2207,instituto universitario de la paz,principal,departamental,oficial,escuela tecnologica,santander,barrancabermeja,no,7.0675,-73.8472,3
-92,2208,conservatorio del tolima,principal,departamental,oficial,escuela tecnologica,tolima,ibague,no,4.4378,-75.2006,3
-93,2209,politecnico colombiano jaime isaza cadavid,principal,departamental,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-94,2301,unidad central del valle del cauca,principal,municipal,oficial,escuela tecnologica,valle del cauca,tulua,no,4.0847,-76.1986,1
-95,2302,institucion universitaria de envigado,principal,municipal,oficial,escuela tecnologica,antioquia,envigado,no,6.1719,-75.5803,3
-96,2708,universidad ces,principal,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
-97,2711,universidad catolica de pereira,principal,fundacion,privada,universidad,risaralda,pereira,no,4.8143,-75.6946,6
-98,2715,fundacion universitaria de popayan,principal,fundacion,privada,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
-99,2719,universidad catolica luis amigo,principal,fundacion,privada,universidad,antioquia,medellin,no,6.2447,-75.5748,34
-100,2720,fundacion universitaria juan de castellanos,principal,fundacion,privada,escuela tecnologica,boyaca,tunja,no,5.5403,-73.3614,4
-101,2721,fundacion universitaria maria cano,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-102,2722,fundacion centro universitario de bienestar rural,principal,fundacion,privada,escuela tecnologica,cauca,puerto tejada,no,3.23,-76.4175,1
-103,2724,fundacion universitaria de san gil - unisangil -,principal,fundacion,privada,escuela tecnologica,santander,san gil,no,6.555,-73.1336,1
-104,2727,fundacion universitaria-ceipa-,principal,fundacion,privada,escuela tecnologica,antioquia,sabaneta,no,6.1508,-75.615,2
-105,2731,fundacion universitaria catolica lumen gentium - unicatolica - cali,principal,fundacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-106,2732,fundacion universitaria catolica del norte,principal,fundacion,privada,escuela tecnologica,antioquia,santa rosa de osos,no,6.6472,-75.4606,1
-107,2736,fundacion universitaria seminario biblico de colombia - fusbc,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-108,2737,fundacion universitaria del area andina,seccional,fundacion,privada,escuela tecnologica,risaralda,pereira,si,4.8143,-75.6946,6
-109,2739,fundacion de estudios superiores universitarios de uraba antonio roldan betancur,principal,fundacion,privada,escuela tecnologica,antioquia,apartado,no,7.883,-76.6259,1
-110,2741,fundacion de estudios superiores - monseñor abraham escudero montoya  - fundes,principal,fundacion,privada,escuela tecnologica,tolima,espinal,no,4.1486,-74.8819,2
-111,2743,universidad internacional del tropico americano,principal,departamental,oficial,universidad,casanare,yopal,no,5.3306,-72.3906,1
-112,2744,universidad cesmag - unicesmag,principal,fundacion,privada,universidad,nariño,pasto,no,1.2136,-77.2811,5
-113,2747,institucion universitaria vision de las americas,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-114,2748,fundacion universitaria seminario teologico bautista internacional,principal,fundacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-115,2749,institucion universitaria  salazar y herrera,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-116,2805,universidad simon bolivar,principal,corporacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
-117,2810,corporacion universidad de la costa cuc,principal,corporacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
-118,2813,universidad eia,principal,corporacion,privada,universidad,antioquia,envigado,si,6.1719,-75.5803,3
-119,2815,corporacion universitaria adventista - unac,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-120,2818,corporacion universitaria de santa rosa de cabal-unisarc-,principal,corporacion,privada,escuela tecnologica,risaralda,santa rosa de cabal,no,4.8672,-75.6211,1
-121,2820,corporacion universitaria lasallista,principal,corporacion,privada,escuela tecnologica,antioquia,caldas,no,6.0886,-75.6361,2
-122,2820,corporacion universitaria lasallista,principal,corporacion,privada,escuela tecnologica,antioquia,caldas,no,5.5546,-73.8657,2
-123,2823,corporacion universitaria del caribe - cecar,principal,corporacion,privada,escuela tecnologica,sucre,sincelejo,no,9.2994,-75.3958,3
-124,2827,corporacion universitaria del meta - unimeta,principal,corporacion,privada,escuela tecnologica,meta,villavicencio,no,4.1425,-73.6294,2
-125,2828,corporacion universitaria del huila-corhuila-,principal,corporacion,privada,escuela tecnologica,huila,neiva,no,2.9275,-75.2875,4
-126,2832,universidad de santander - udes,principal,corporacion,privada,universidad,santander,bucaramanga,no,7.1186,-73.1161,14
-127,2833,corporacion universitaria remington,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-128,2836,corporacion universitaria empresarial de salamanca,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-129,2838,corporacion colegiatura colombiana,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-130,2840,corporacion universitaria empresarial alexander von humboldt - cue,principal,corporacion,privada,escuela tecnologica,quindio,armenia,no,4.5389,-75.6725,10
-131,2840,corporacion universitaria empresarial alexander von humboldt - cue,principal,corporacion,privada,escuela tecnologica,quindio,armenia,no,6.1564,-75.7858,10
-132,2841,corporacion universitaria minuto de dios -uniminuto-,seccional,corporacion,privada,escuela tecnologica,antioquia,bello,no,6.3319,-75.5581,2
-133,2842,corporacion universitaria reformada - cur -,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-134,2847,universidad de investigacion y desarrollo - udi,principal,corporacion,privada,universidad,santander,bucaramanga,no,7.1186,-73.1161,14
-135,2849,corporacion universitaria autonoma del cauca,principal,corporacion,privada,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
-136,2850,corporacion universitaria antonio jose de sucre - corposucre,principal,corporacion,privada,escuela tecnologica,sucre,sincelejo,no,9.2994,-75.3958,3
-137,3102,instituto superior de educacion rural-iser-,principal,departamental,oficial,institucion tecnologica,norte de santander,pamplona,no,7.3761,-72.6483,2
-138,3104,colegio mayor del cauca,principal,departamental,oficial,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
-139,3107,institucion universitaria pascual bravo,principal,nacional,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-140,3114,escuela naval de suboficiales arc barranquilla,principal,nacional,oficial,institucion tecnologica,atlantico,barranquilla,si,10.9639,-74.7964,16
-141,3115,instituto tecnologico del putumayo,principal,departamental,oficial,institucion tecnologica,putumayo,mocoa,no,1.1492,-76.6464,1
-142,3116,instituto tecnologico del putumayo,seccional,departamental,oficial,institucion tecnologica,putumayo,sibundoy,no,1.2033,-76.9192,1
-143,3117,institucion universitaria itsa,principal,municipal,oficial,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-144,3201,unidades tecnologicas de santander,principal,departamental,oficial,institucion tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
-145,3204,tecnologico de antioquia,principal,departamental,oficial,escuela tecnologica,antioquia,medellin,si,6.2447,-75.5748,34
-146,3301,institucion universitaria antonio jose camacho,principal,municipal,oficial,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-147,3302,instituto tecnologico metropolitano,principal,municipal,oficial,escuela tecnologica,antioquia,medellin,si,6.2447,-75.5748,34
-148,3303,escuela superior tecnologica de artes debora arango,principal,municipal,oficial,institucion tecnologica,antioquia,envigado,no,6.1719,-75.5803,3
-149,3703,institucion universitaria escolme,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-150,3706,fundacion centro colombiano de estudios profesionales -f.c.e.c.e.p.,principal,fundacion,privada,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-151,3715,fundacion tecnologica autonoma del pacifico,principal,fundacion,privada,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-152,3716,tecnologica fitec,principal,fundacion,privada,institucion tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
-153,3720,fundacion universitaria esumer,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-154,3724,fundacion tecnologica de madrid,principal,fundacion,privada,institucion tecnologica,cundinamarca,madrid,no,4.7306,-74.2639,2
-155,3801,corporacion de estudios tecnologicos del norte del valle,principal,corporacion,privada,institucion tecnologica,valle del cauca,cartago,no,4.75,-75.91,2
-156,3801,corporacion de estudios tecnologicos del norte del valle,principal,corporacion,privada,institucion tecnologica,valle del cauca,cartago,no,1.5514,-77.1189,2
-157,3802,centro educacional de computos y sistemas-cedesistemas-,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-158,3803,corporacion universitaria centro superior - unicuces,principal,corporacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-159,3806,corporacion escuela superior de administracion y estudios tecnologicos- eae,principal,corporacion,privada,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-160,3807,escuela de tecnologias de antioquia -eta-,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-161,3810,corporacion educativa -itae-,principal,corporacion,privada,institucion tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
-162,3811,corporacion de educacion del norte del tolima - coreducacion,principal,corporacion,privada,institucion tecnologica,tolima,honda,no,5.2069,-74.7367,1
-163,3812,institucion universitaria marco fidel suarez - iumafis,principal,corporacion,privada,escuela tecnologica,antioquia,bello,no,6.3319,-75.5581,2
-164,3817,corporacion universitaria autonoma de nariño -aunar-,principal,corporacion,privada,escuela tecnologica,nariño,pasto,no,1.2136,-77.2811,5
-165,3820,corporacion academia tecnologica de colombia -atec-,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-166,3821,corporacion politecnico de la costa atlantica,principal,corporacion,privada,institucion tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-167,3831,corporacion universitaria comfacauca - unicomfacauca,principal,corporacion,privada,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
-168,3834,corporacion tecnologica catolica de occidente - tecoc -,principal,corporacion,privada,institucion tecnologica,antioquia,santa fe de antioquia,no,6.5564,-75.8275,2
-169,3901,escuela de formacion de infanteria de marina,principal,nacional,oficial,institucion tecnologica,sucre,coveñas,si,9.4014,-75.68,1
-170,3902,escuela  militar de suboficiales sargento inocencio chinca,principal,nacional,oficial,institucion tecnologica,cundinamarca,nilo,no,4.3069,-74.62,1
-171,4101,instituto de educacion tecnica profesional de roldanillo,principal,departamental,oficial,institucion tecnica profesional,valle del cauca,roldanillo,no,4.4136,-76.1547,1
-172,4102,instituto nacional de formacion tecnica profesional de san juan del cesar,principal,nacional,oficial,institucion tecnica profesional,la guajira,san juan del cesar,no,10.7708,-73.0031,1
-173,4106,instituto nacional de formacion tecnica profesional de san andres,principal,nacional,oficial,institucion tecnica profesional,archipielago de san andres providencia y santa catalina,san andres,no,12.5847,-81.7006,6
-174,4106,instituto nacional de formacion tecnica profesional de san andres,principal,nacional,oficial,institucion tecnica profesional,archipielago de san andres providencia y santa catalina,san andres,no,6.9033,-75.6825,6
-175,4106,instituto nacional de formacion tecnica profesional de san andres,principal,nacional,oficial,institucion tecnica profesional,archipielago de san andres providencia y santa catalina,san andres,no,6.8115,-72.8493,6
-176,4107,instituto tecnico agricola ita,principal,municipal,oficial,institucion tecnica profesional,valle del cauca,guadalajara de buga,no,3.9036,-76.2986,3
-177,4109,instituto tecnico nacional de comercio simon rodriguez - intenalco,principal,nacional,oficial,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
-178,4110,instituto tolimense de formacion tecnica profesional,principal,nacional,oficial,institucion tecnica profesional,tolima,espinal,no,4.1486,-74.8819,2
-179,4111,instituto nacional de formacion tecnica profesional - humberto velasquez garcia,principal,departamental,oficial,institucion tecnica profesional,magdalena,cienaga,no,11.0104,-74.25,1
-180,4112,colegio integrado nacional oriente de caldas - ies cinoc,principal,departamental,oficial,institucion tecnica profesional,caldas,pensilvania,no,5.384,-75.1612,1
-181,4301,unidad tecnica profesional de sevilla-uniteps-,principal,municipal,oficial,institucion tecnica profesional,valle del cauca,sevilla,no,4.2642,-75.9309,1
-182,4701,fundacion academia de dibujo profesional,principal,fundacion,privada,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
-183,4709,institucion universitaria eam,principal,fundacion,privada,escuela tecnologica,quindio,armenia,no,4.5389,-75.6725,10
-184,4709,institucion universitaria eam,principal,fundacion,privada,escuela tecnologica,quindio,armenia,no,6.1564,-75.7858,10
-185,4801,corporacion academia superior de artes,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-186,4808,corporacion regional de educacion superior-cres-de cali,principal,corporacion,privada,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
-187,4811,corporacion de estudios superiores salamandra,principal,corporacion,privada,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
-188,4817,corporacion educativa del litoral,principal,corporacion,privada,institucion tecnica profesional,atlantico,barranquilla,no,10.9639,-74.7964,16
-189,4818,corporacion universitaria latinoamericana - cul,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-190,4825,corporacion instituto de administracion y finanzas - ciaf,principal,corporacion,privada,institucion tecnica profesional,risaralda,pereira,no,4.8143,-75.6946,6
-191,4827,corporacion educativa instituto tecnico superior de artes ideartes,principal,corporacion,privada,institucion tecnica profesional,antioquia,medellin,no,6.2447,-75.5748,34
-192,4829,corporacion interamericana de educacion superior-corpocides,principal,corporacion,privada,institucion tecnica profesional,santander,bucaramanga,no,7.1186,-73.1161,14
-193,4837,corporacion universitaria de ciencias empresariales educacion y salud -corsalud-,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-194,5801,corporacion escuela tecnologica del oriente,principal,corporacion,privada,escuela tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
-195,9102,escuela de suboficiales de la fuerza aerea colombiana andres m. diaz,principal,nacional,oficial,institucion tecnologica,cundinamarca,madrid,si,4.7306,-74.2639,2
-196,9103,escuela militar de aviacion marco fidel suarez,principal,nacional,oficial,escuela tecnologica,valle del cauca,cali,si,3.44,-76.5197,23
-197,9111,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-198,9112,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-199,9113,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,cundinamarca,mosquera,no,4.7078,-74.2328,2
-200,9113,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,cundinamarca,mosquera,no,2.5078,-78.4517,2
-201,9114,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,quindio,armenia,no,4.5389,-75.6725,10
-202,9114,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,quindio,armenia,no,6.1564,-75.7858,10
-203,9115,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,valle del cauca,guadalajara de buga,no,3.9036,-76.2986,3
-204,9116,fundacion universitaria claretiana - uniclaretiana,principal,fundacion,privada,escuela tecnologica,choco,quibdo,no,5.6923,-76.6582,2
-205,9119,corporacion universitaria americana,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-206,9120,fundacion universitaria bellas artes,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-207,9122,universidad manuela beltran-umb-,seccional,fundacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
-208,9123,universidad antonio nariño,seccional,corporacion,privada,universidad,huila,neiva,no,2.9275,-75.2875,4
-209,9124,tecnologico coredi,principal,fundacion,privada,institucion tecnologica,antioquia,marinilla,no,6.1744,-75.3389,1
-210,9125,universidad de antioquia,seccional,nacional,oficial,universidad,antioquia,santa fe de antioquia,no,6.5564,-75.8275,2
-211,9126,corporacion tecnologica indoamerica,principal,corporacion,privada,institucion tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
-212,9127,corporacion universitaria de sabaneta - unisabaneta,principal,corporacion,privada,escuela tecnologica,antioquia,sabaneta,no,6.1508,-75.615,2
-213,9900,corporacion universitaria u de colombia,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-214,9902,fundacion universitaria comfenalco santander,principal,fundacion,privada,escuela tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
-215,9905,fundacion escuela tecnologica de neiva - jesus oviedo perez -fet,principal,fundacion,privada,escuela tecnologica,huila,rivera,no,2.7772,-75.2553,1
-216,9906,corporacion universitaria para el desarrollo empresarial y social- cudes,principal,corporacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
-217,9907,fundacion universitaria navarra - uninavarra,principal,fundacion,privada,escuela tecnologica,huila,neiva,no,2.9275,-75.2875,4
-218,9908,universidad del valle,seccional,departamental,oficial,universidad,valle del cauca,guadalajara de buga,no,3.9036,-76.2986,3
-219,9909,universidad del valle,seccional,nacional,oficial,universidad,valle del cauca,zarzal,no,4.3942,-76.0703,1
-220,9911,universidad del valle,seccional,departamental,oficial,universidad,valle del cauca,buenaventura,no,3.8772,-77.0267,2
-221,9912,universidad del valle,seccional,nacional,oficial,universidad,valle del cauca,palmira,no,3.5394,-76.3036,4
-222,9918,institucion universitaria conocimiento e innovacion para la justicia - cij,principal,nacional,oficial,escuela tecnologica,cundinamarca,cota,no,4.8094,-74.098,1
-223,9919,tecnologico de energia e innovacion-  e-lernova,principal,fundacion,privada,institucion tecnologica,cundinamarca,chia,no,4.8633,-74.0528,3
-224,9921,fundacion universitaria catolica del sur - unicatolica del sur,principal,fundacion,privada,escuela tecnologica,nariño,pasto,no,1.2136,-77.2811,5
-225,9922,fundacion universitaria comfamiliar risaralda,principal,fundacion,privada,escuela tecnologica,risaralda,pereira,no,4.8143,-75.6946,6
-226,9925,fundacion universitaria fcv,principal,fundacion,privada,escuela tecnologica,santander,floridablanca,no,7.0697,-73.0978,1
-227,9927,institucion universitaria digital de antioquia -iu. digital,principal,departamental,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
-228,9929,universidad autonoma indigena intercultural - uaiin,principal,nacional,oficial,universidad,cauca,popayan,no,2.4411,-76.6061,6
-229,9933,universidad nacional de colombia,seccional,nacional,oficial,universidad,cesar,la paz,no,10.3844,-73.1733,2
-230,9933,universidad nacional de colombia,seccional,nacional,oficial,universidad,cesar,la paz,no,6.1781,-73.5894,2
-231,9935,unidad tecnologica del magdalena medio - utem -,principal,fundacion,privada,institucion tecnologica,santander,barrancabermeja,no,7.0675,-73.8472,3
+0,1101,universidad nacional de colombia,principal,nacional,oficial,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+1,1102,universidad nacional de colombia,seccional,nacional,oficial,universidad,antioquia,medellin,no,6.2447,-75.5748,34
+2,1103,universidad nacional de colombia,seccional,nacional,oficial,universidad,caldas,manizales,no,5.0661,-75.4847,5
+3,1104,universidad nacional de colombia,seccional,nacional,oficial,universidad,valle del cauca,palmira,no,3.5394,-76.3036,4
+4,1105,universidad pedagogica nacional,principal,nacional,oficial,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+5,1106,universidad pedagogica y tecnologica de colombia - uptc,principal,nacional,oficial,universidad,boyaca,tunja,si,5.5403,-73.3614,4
+6,1107,universidad pedagogica y tecnologica de colombia - uptc,seccional,nacional,oficial,universidad,boyaca,duitama,si,5.8219,-73.0297,1
+7,1108,universidad pedagogica y tecnologica de colombia - uptc,seccional,nacional,oficial,universidad,boyaca,sogamoso,si,5.7158,-72.9333,1
+8,1109,universidad pedagogica y tecnologica de colombia - uptc,seccional,nacional,oficial,universidad,boyaca,chiquinquira,si,5.6175,-73.8164,1
+9,1110,universidad del cauca,principal,nacional,oficial,universidad,cauca,popayan,si,2.4411,-76.6061,6
+10,1111,universidad tecnologica de pereira - utp,principal,nacional,oficial,universidad,risaralda,pereira,si,4.8143,-75.6946,6
+11,1112,universidad de caldas,principal,nacional,oficial,universidad,caldas,manizales,si,5.0661,-75.4847,5
+12,1113,universidad de cordoba,principal,nacional,oficial,universidad,cordoba,monteria,si,8.76,-75.8856,3
+13,1114,universidad surcolombiana,principal,nacional,oficial,universidad,huila,neiva,si,2.9275,-75.2875,4
+14,1115,universidad de la amazonia,principal,nacional,oficial,universidad,caqueta,florencia,no,1.6142,-75.6117,2
+15,1115,universidad de la amazonia,principal,nacional,oficial,universidad,caqueta,florencia,no,1.6822,-77.0722,2
+16,1117,universidad militar-nueva granada,principal,nacional,oficial,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+17,1118,universidad tecnologica del choco-diego luis cordoba,principal,nacional,oficial,universidad,choco,quibdo,no,5.6923,-76.6582,2
+18,1119,universidad de los llanos,principal,nacional,oficial,universidad,meta,villavicencio,no,4.1425,-73.6294,2
+19,1120,universidad popular del cesar,principal,nacional,oficial,universidad,cesar,valledupar,no,10.4603,-73.2597,1
+20,1121,universidad-colegio mayor de cundinamarca,principal,nacional,oficial,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+21,1122,universidad del pacifico,principal,nacional,oficial,universidad,valle del cauca,buenaventura,no,3.8772,-77.0267,2
+22,1123,universidad popular del cesar,seccional,nacional,oficial,universidad,cesar,aguachica,no,8.3067,-73.6153,1
+23,1124,universidad nacional de colombia,seccional,nacional,oficial,universidad,arauca,arauca,si,7.0903,-70.7617,1
+24,1125,universidad nacional de colombia,seccional,nacional,oficial,universidad,amazonas,leticia,si,-4.215,-69.9411,1
+25,1126,universidad nacional de colombia,seccional,nacional,oficial,universidad,archipielago de san andres providencia y santa catalina,san andres,si,12.5847,-81.7006,6
+26,1126,universidad nacional de colombia,seccional,nacional,oficial,universidad,archipielago de san andres providencia y santa catalina,san andres,si,6.9033,-75.6825,6
+27,1126,universidad nacional de colombia,seccional,nacional,oficial,universidad,archipielago de san andres providencia y santa catalina,san andres,si,6.8115,-72.8493,6
+28,1201,universidad de antioquia,principal,departamental,oficial,universidad,antioquia,medellin,si,6.2447,-75.5748,34
+29,1202,universidad del atlantico,principal,departamental,oficial,universidad,atlantico,puerto colombia,si,10.9922,-74.9528,1
+30,1203,universidad del valle,principal,departamental,oficial,universidad,valle del cauca,cali,si,3.44,-76.5197,23
+31,1204,universidad industrial de santander,principal,departamental,oficial,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
+32,1206,universidad de nariño,principal,departamental,oficial,universidad,nariño,pasto,si,1.2136,-77.2811,5
+33,1207,universidad del tolima,principal,departamental,oficial,universidad,tolima,ibague,si,4.4378,-75.2006,3
+34,1208,universidad del quindio,principal,departamental,oficial,universidad,quindio,armenia,si,4.5389,-75.6725,10
+35,1208,universidad del quindio,principal,departamental,oficial,universidad,quindio,armenia,si,6.1564,-75.7858,10
+36,1210,universidad francisco de paula santander,seccional,departamental,oficial,universidad,norte de santander,ocaña,no,8.2461,-73.3553,1
+37,1212,universidad de pamplona,principal,departamental,oficial,universidad,norte de santander,pamplona,no,7.3761,-72.6483,2
+38,1213,universidad del magdalena - unimagdalena,principal,departamental,oficial,universidad,magdalena,santa marta,si,11.2361,-74.2017,3
+39,1214,universidad de cundinamarca-udec,principal,departamental,oficial,universidad,cundinamarca,fusagasuga,no,4.3372,-74.3644,1
+40,1215,universidad de cundinamarca-udec,seccional,departamental,oficial,universidad,cundinamarca,girardot,no,4.3036,-74.8039,2
+41,1216,universidad de cundinamarca-udec,seccional,departamental,oficial,universidad,cundinamarca,villa de san diego de ubate,no,5.3072,-73.8144,1
+42,1217,universidad de sucre,principal,departamental,oficial,universidad,sucre,sincelejo,no,9.2994,-75.3958,3
+43,1218,universidad de la guajira,principal,departamental,oficial,universidad,la guajira,riohacha,no,11.5442,-72.9069,1
+44,1220,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,andes,no,5.6556,-75.8803,1
+45,1221,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,caucasia,no,7.9865,-75.1935,1
+46,1222,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,puerto berrio,no,6.4906,-74.4047,1
+47,1223,universidad de antioquia,seccional,departamental,oficial,universidad,antioquia,turbo,no,8.0931,-76.7283,1
+48,1301,universidad distrital-francisco jose de caldas,principal,municipal,oficial,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+49,1701,pontificia universidad javeriana,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+50,1702,pontificia universidad javeriana,seccional,fundacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
+51,1703,universidad incca de colombia,principal,fundacion,privada,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+52,1704,universidad santo tomas,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+53,1705,universidad santo tomas,seccional,fundacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
+54,1706,universidad externado de colombia,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+55,1707,fundacion universidad de bogota - jorge tadeo lozano,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+56,1709,universidad central,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+57,1710,universidad pontificia bolivariana,principal,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
+58,1711,universidad de la sabana,principal,fundacion,privada,universidad,cundinamarca,chia,si,4.8633,-74.0528,3
+59,1712,universidad eafit-,principal,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
+60,1713,universidad del norte,principal,fundacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
+61,1714,colegio mayor de nuestra señora del rosario,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+62,1715,fundacion universidad de america,principal,fundacion,privada,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+63,1716,universidad de san buenaventura,seccional,fundacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
+64,1717,universidad de san buenaventura,seccional,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
+65,1718,universidad de san buenaventura,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+66,1719,universidad catolica de colombia,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+67,1720,universidad mariana,principal,fundacion,privada,universidad,nariño,pasto,no,1.2136,-77.2811,5
+68,1722,universidad de manizales,principal,fundacion,privada,universidad,caldas,manizales,si,5.0661,-75.4847,5
+69,1723,universidad pontificia bolivariana,seccional,fundacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
+70,1725,fundacion universidad autonoma de colombia -fuac-,principal,fundacion,privada,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+71,1726,universidad catolica de oriente -uco,principal,fundacion,privada,universidad,antioquia,rionegro,si,6.1551,-75.3737,2
+72,1726,universidad catolica de oriente -uco,principal,fundacion,privada,universidad,antioquia,rionegro,si,7.2646,-73.1501,2
+73,1727,universidad pontificia bolivariana,seccional,fundacion,privada,universidad,cordoba,monteria,si,8.76,-75.8856,3
+74,1728,universidad sergio arboleda,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+75,1729,universidad el bosque,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+76,1730,universidad pontificia bolivariana,seccional,fundacion,privada,universidad,valle del cauca,palmira,si,3.5394,-76.3036,4
+77,1731,universidad catolica de colombia,seccional,fundacion,privada,universidad,cundinamarca,chia,no,4.8633,-74.0528,3
+78,1732,universidad santo tomas,seccional,fundacion,privada,universidad,boyaca,tunja,si,5.5403,-73.3614,4
+79,1733,universidad sergio arboleda,seccional,fundacion,privada,universidad,magdalena,santa marta,si,11.2361,-74.2017,3
+80,1734,universidad de boyaca uniboyaca,principal,fundacion,privada,universidad,boyaca,tunja,no,5.5403,-73.3614,4
+81,1735,universidad manuela beltran-umb-,principal,fundacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+82,1801,universidad la gran colombia,principal,corporacion,privada,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+83,1802,universidad la gran colombia,seccional,corporacion,privada,universidad,quindio,armenia,no,4.5389,-75.6725,10
+84,1802,universidad la gran colombia,seccional,corporacion,privada,universidad,quindio,armenia,no,6.1564,-75.7858,10
+85,1803,universidad de la salle,principal,corporacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+86,1804,universidad autonoma del caribe- uniautonoma,principal,corporacion,privada,universidad,atlantico,barranquilla,no,10.9639,-74.7964,16
+87,1805,universidad santiago de cali,principal,corporacion,privada,universidad,valle del cauca,cali,no,3.44,-76.5197,23
+88,1806,universidad libre,principal,corporacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+89,1807,universidad libre,seccional,corporacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
+90,1808,universidad libre,seccional,corporacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
+91,1809,universidad libre,seccional,corporacion,privada,universidad,risaralda,pereira,si,4.8143,-75.6946,6
+92,1811,universidad libre,seccional,corporacion,privada,universidad,santander,socorro,si,6.4603,-73.27,1
+93,1812,universidad de medellin,principal,corporacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
+94,1813,universidad de los andes,principal,corporacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+95,1814,universidad autonoma latinoamericana-unaula-,principal,corporacion,privada,universidad,antioquia,medellin,no,6.2447,-75.5748,34
+96,1815,corporacion universidad piloto de colombia,principal,corporacion,privada,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+97,1816,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,antioquia,medellin,no,6.2447,-75.5748,34
+98,1817,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,santander,bucaramanga,no,7.1186,-73.1161,14
+99,1818,universidad cooperativa de colombia,principal,corporacion,privada,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+100,1819,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,santander,barrancabermeja,no,7.0675,-73.8472,3
+101,1820,universidad cooperativa de colombia,seccional,corporacion,privada,universidad,magdalena,santa marta,no,11.2361,-74.2017,3
+102,1822,corporacion universidad piloto de colombia,seccional,corporacion,privada,universidad,cundinamarca,girardot,no,4.3036,-74.8039,2
+103,1823,universidad autonoma de bucaramanga-unab-,principal,corporacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
+104,1824,universidad metropolitana,principal,corporacion,privada,universidad,atlantico,barranquilla,no,10.9639,-74.7964,16
+105,1825,universidad autonoma de manizales,principal,corporacion,privada,universidad,caldas,manizales,si,5.0661,-75.4847,5
+106,1826,universidad antonio nariño,principal,corporacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+107,1827,universidad catolica de manizales,principal,corporacion,privada,universidad,caldas,manizales,si,5.0661,-75.4847,5
+108,1828,universidad icesi,principal,corporacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
+109,1829,universidad santiago de cali,seccional,corporacion,privada,universidad,valle del cauca,palmira,no,3.5394,-76.3036,4
+110,1830,universidad autonoma de occidente,principal,corporacion,privada,universidad,valle del cauca,cali,si,3.44,-76.5197,23
+111,1831,universidad de ibague,principal,corporacion,privada,universidad,tolima,ibague,si,4.4378,-75.2006,3
+112,1833,universidad del sinu - elias bechara zainum - unisinu -,principal,corporacion,privada,universidad,cordoba,monteria,si,8.76,-75.8856,3
+113,1835,universidad de ciencias aplicadas y ambientales - udca,principal,corporacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+114,2102,universidad nacional abierta y a distancia unad,principal,nacional,oficial,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+115,2104,escuela superior de administracion publica-esap-,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+116,2106,direccion nacional de escuelas,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,si,4.6126,-74.0705,122
+117,2110,colegio mayor de antioquia,principal,municipal,oficial,escuela tecnologica,antioquia,medellin,si,6.2447,-75.5748,34
+118,2111,escuela superior de administracion publica-esap-,seccional,nacional,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+119,2114,escuela nacional del deporte,principal,municipal,oficial,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+120,2206,instituto departamental de bellas artes,principal,departamental,oficial,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+121,2207,instituto universitario de la paz,principal,departamental,oficial,escuela tecnologica,santander,barrancabermeja,no,7.0675,-73.8472,3
+122,2208,conservatorio del tolima,principal,departamental,oficial,escuela tecnologica,tolima,ibague,no,4.4378,-75.2006,3
+123,2209,politecnico colombiano jaime isaza cadavid,principal,departamental,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+124,2301,unidad central del valle del cauca,principal,municipal,oficial,escuela tecnologica,valle del cauca,tulua,no,4.0847,-76.1986,1
+125,2302,institucion universitaria de envigado,principal,municipal,oficial,escuela tecnologica,antioquia,envigado,no,6.1719,-75.5803,3
+126,2701,institucion universitaria colegios de colombia - unicoc,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+127,2702,fundacion universitaria de ciencias de la salud,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,si,4.6126,-74.0705,122
+128,2704,colegio de estudios superiores de administracion-cesa-,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,si,4.6126,-74.0705,122
+129,2707,fundacion universitaria juan n. corpas,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+130,2708,universidad ces,principal,fundacion,privada,universidad,antioquia,medellin,si,6.2447,-75.5748,34
+131,2709,fundacion universitaria san martin,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+132,2710,fundacion universitaria monserrate -unimonserrate,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+133,2711,universidad catolica de pereira,principal,fundacion,privada,universidad,risaralda,pereira,no,4.8143,-75.6946,6
+134,2712,fundacion universitaria konrad lorenz,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+135,2713,fundacion universitaria los libertadores,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+136,2715,fundacion universitaria de popayan,principal,fundacion,privada,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
+137,2719,universidad catolica luis amigo,principal,fundacion,privada,universidad,antioquia,medellin,no,6.2447,-75.5748,34
+138,2720,fundacion universitaria juan de castellanos,principal,fundacion,privada,escuela tecnologica,boyaca,tunja,no,5.5403,-73.3614,4
+139,2721,fundacion universitaria maria cano,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+140,2722,fundacion centro universitario de bienestar rural,principal,fundacion,privada,escuela tecnologica,cauca,puerto tejada,no,3.23,-76.4175,1
+141,2723,fundacion universitaria agraria de colombia -uniagraria-,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+142,2724,fundacion universitaria de san gil - unisangil -,principal,fundacion,privada,escuela tecnologica,santander,san gil,no,6.555,-73.1336,1
+143,2725,politecnico grancolombiano,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+144,2727,fundacion universitaria-ceipa-,principal,fundacion,privada,escuela tecnologica,antioquia,sabaneta,no,6.1508,-75.615,2
+145,2728,fundacion universitaria del area andina,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,si,4.6126,-74.0705,122
+146,2730,fundacion escuela colombiana de rehabilitacion,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+147,2731,fundacion universitaria catolica lumen gentium - unicatolica - cali,principal,fundacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+148,2732,fundacion universitaria catolica del norte,principal,fundacion,privada,escuela tecnologica,antioquia,santa rosa de osos,no,6.6472,-75.4606,1
+149,2733,fundacion universitaria san alfonso- fusa-,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+150,2736,fundacion universitaria seminario biblico de colombia - fusbc,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+151,2737,fundacion universitaria del area andina,seccional,fundacion,privada,escuela tecnologica,risaralda,pereira,si,4.8143,-75.6946,6
+152,2738,fundacion universitaria empresarial de la camara de comercio de bogota- uniempresarial,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+153,2739,fundacion de estudios superiores universitarios de uraba antonio roldan betancur,principal,fundacion,privada,escuela tecnologica,antioquia,apartado,no,7.883,-76.6259,1
+154,2740,institucion universitaria colombo americana - unica,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+155,2741,fundacion de estudios superiores - monseñor abraham escudero montoya  - fundes,principal,fundacion,privada,escuela tecnologica,tolima,espinal,no,4.1486,-74.8819,2
+156,2743,universidad internacional del tropico americano,principal,departamental,oficial,universidad,casanare,yopal,no,5.3306,-72.3906,1
+157,2744,universidad cesmag - unicesmag,principal,fundacion,privada,universidad,nariño,pasto,no,1.2136,-77.2811,5
+158,2745,fundacion universitaria compensar,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+159,2746,fundacion universitaria sanitas,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+160,2747,institucion universitaria vision de las americas,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+161,2748,fundacion universitaria seminario teologico bautista internacional,principal,fundacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+162,2749,institucion universitaria  salazar y herrera,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+163,2805,universidad simon bolivar,principal,corporacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
+164,2810,corporacion universidad de la costa cuc,principal,corporacion,privada,universidad,atlantico,barranquilla,si,10.9639,-74.7964,16
+165,2811,escuela colombiana de ingenieria julio garavito,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,si,4.6126,-74.0705,122
+166,2812,universidad ean,principal,corporacion,privada,universidad,bogota d.c.,bogota,si,4.6126,-74.0705,122
+167,2813,universidad eia,principal,corporacion,privada,universidad,antioquia,envigado,si,6.1719,-75.5803,3
+168,2815,corporacion universitaria adventista - unac,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+169,2818,corporacion universitaria de santa rosa de cabal-unisarc-,principal,corporacion,privada,escuela tecnologica,risaralda,santa rosa de cabal,no,4.8672,-75.6211,1
+170,2820,corporacion universitaria lasallista,principal,corporacion,privada,escuela tecnologica,antioquia,caldas,no,6.0886,-75.6361,2
+171,2820,corporacion universitaria lasallista,principal,corporacion,privada,escuela tecnologica,antioquia,caldas,no,5.5546,-73.8657,2
+172,2822,escuela superior de oftalmologia instituto barraquer de america,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+173,2823,corporacion universitaria del caribe - cecar,principal,corporacion,privada,escuela tecnologica,sucre,sincelejo,no,9.2994,-75.3958,3
+174,2824,corporacion universitaria de colombia ideas,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+175,2827,corporacion universitaria del meta - unimeta,principal,corporacion,privada,escuela tecnologica,meta,villavicencio,no,4.1425,-73.6294,2
+176,2828,corporacion universitaria del huila-corhuila-,principal,corporacion,privada,escuela tecnologica,huila,neiva,no,2.9275,-75.2875,4
+177,2829,corporacion universitaria minuto de dios -uniminuto-,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+178,2830,corporacion universitaria iberoamericana,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+179,2831,corporacion universitaria de ciencia y desarrollo - uniciencia,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+180,2832,universidad de santander - udes,principal,corporacion,privada,universidad,santander,bucaramanga,no,7.1186,-73.1161,14
+181,2833,corporacion universitaria remington,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+182,2834,universitaria agustiniana- uniagustiniana,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+183,2836,corporacion universitaria empresarial de salamanca,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+184,2837,corporacion universitaria republicana,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+185,2838,corporacion colegiatura colombiana,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+186,2840,corporacion universitaria empresarial alexander von humboldt - cue,principal,corporacion,privada,escuela tecnologica,quindio,armenia,no,4.5389,-75.6725,10
+187,2840,corporacion universitaria empresarial alexander von humboldt - cue,principal,corporacion,privada,escuela tecnologica,quindio,armenia,no,6.1564,-75.7858,10
+188,2841,corporacion universitaria minuto de dios -uniminuto-,seccional,corporacion,privada,escuela tecnologica,antioquia,bello,no,6.3319,-75.5581,2
+189,2842,corporacion universitaria reformada - cur -,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+190,2847,universidad de investigacion y desarrollo - udi,principal,corporacion,privada,universidad,santander,bucaramanga,no,7.1186,-73.1161,14
+191,2848,corporacion universitaria  unitec,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+192,2849,corporacion universitaria autonoma del cauca,principal,corporacion,privada,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
+193,2850,corporacion universitaria antonio jose de sucre - corposucre,principal,corporacion,privada,escuela tecnologica,sucre,sincelejo,no,9.2994,-75.3958,3
+194,2901,escuela de inteligencia y contrainteligencia brigadier general ricardo charry solano,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+195,2902,escuela de logistica,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+196,2904,escuela superior de guerra general rafael reyes prieto,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+197,2905,centro de educacion militar - cemil,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+198,2906,escuela de postgrados de la fuerza aerea colombiana capitan jose edmundo sandoval - epfac,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+199,3102,instituto superior de educacion rural-iser-,principal,departamental,oficial,institucion tecnologica,norte de santander,pamplona,no,7.3761,-72.6483,2
+200,3104,colegio mayor del cauca,principal,departamental,oficial,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
+201,3107,institucion universitaria pascual bravo,principal,nacional,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+202,3114,escuela naval de suboficiales arc barranquilla,principal,nacional,oficial,institucion tecnologica,atlantico,barranquilla,si,10.9639,-74.7964,16
+203,3115,instituto tecnologico del putumayo,principal,departamental,oficial,institucion tecnologica,putumayo,mocoa,no,1.1492,-76.6464,1
+204,3116,instituto tecnologico del putumayo,seccional,departamental,oficial,institucion tecnologica,putumayo,sibundoy,no,1.2033,-76.9192,1
+205,3117,institucion universitaria itsa,principal,municipal,oficial,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+206,3201,unidades tecnologicas de santander,principal,departamental,oficial,institucion tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
+207,3204,tecnologico de antioquia,principal,departamental,oficial,escuela tecnologica,antioquia,medellin,si,6.2447,-75.5748,34
+208,3301,institucion universitaria antonio jose camacho,principal,municipal,oficial,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+209,3302,instituto tecnologico metropolitano,principal,municipal,oficial,escuela tecnologica,antioquia,medellin,si,6.2447,-75.5748,34
+210,3303,escuela superior tecnologica de artes debora arango,principal,municipal,oficial,institucion tecnologica,antioquia,envigado,no,6.1719,-75.5803,3
+211,3702,fundacion tecnologica autonoma de bogota-faba-,principal,fundacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+212,3703,institucion universitaria escolme,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+213,3706,fundacion centro colombiano de estudios profesionales -f.c.e.c.e.p.,principal,fundacion,privada,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+214,3712,fundacion centro de investigacion docencia y consultoria administrativa-f-cidca-,principal,fundacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+215,3713,fundacion universitaria para el desarrollo humano - uninpahu,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+216,3715,fundacion tecnologica autonoma del pacifico,principal,fundacion,privada,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+217,3716,tecnologica fitec,principal,fundacion,privada,institucion tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
+218,3719,institucion universitaria latina - unilatina,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+219,3720,fundacion universitaria esumer,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+220,3724,fundacion tecnologica de madrid,principal,fundacion,privada,institucion tecnologica,cundinamarca,madrid,no,4.7306,-74.2639,2
+221,3725,fundacion tecnologica alberto merani,principal,fundacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+222,3801,corporacion de estudios tecnologicos del norte del valle,principal,corporacion,privada,institucion tecnologica,valle del cauca,cartago,no,4.75,-75.91,2
+223,3801,corporacion de estudios tecnologicos del norte del valle,principal,corporacion,privada,institucion tecnologica,valle del cauca,cartago,no,1.5514,-77.1189,2
+224,3802,centro educacional de computos y sistemas-cedesistemas-,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+225,3803,corporacion universitaria centro superior - unicuces,principal,corporacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+226,3806,corporacion escuela superior de administracion y estudios tecnologicos- eae,principal,corporacion,privada,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+227,3807,escuela de tecnologias de antioquia -eta-,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+228,3808,corporacion tecnologica de bogota - ctb,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+229,3809,instituto superior de ciencias sociales y economico familiares-icsef-,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+230,3810,corporacion educativa -itae-,principal,corporacion,privada,institucion tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
+231,3811,corporacion de educacion del norte del tolima - coreducacion,principal,corporacion,privada,institucion tecnologica,tolima,honda,no,5.2069,-74.7367,1
+232,3812,institucion universitaria marco fidel suarez - iumafis,principal,corporacion,privada,escuela tecnologica,antioquia,bello,no,6.3319,-75.5581,2
+233,3817,corporacion universitaria autonoma de nariño -aunar-,principal,corporacion,privada,escuela tecnologica,nariño,pasto,no,1.2136,-77.2811,5
+234,3819,corporacion tecnologica industrial colombiana - teinco,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+235,3820,corporacion academia tecnologica de colombia -atec-,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+236,3821,corporacion politecnico de la costa atlantica,principal,corporacion,privada,institucion tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+237,3822,politecnico icaft,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+238,3824,escuela superior de ciencias empresariales - eciem,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+239,3826,corporacion internacional para el desarrollo educativo -cide-,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+240,3827,politecnico santafe de bogota,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+241,3828,corporacion tecnologica de educacion superior sapienza -cte-,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+242,3829,corporacion john f. kennedy,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+243,3830,corporacion universal de investigacion y tecnologia -coruniversitec-,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+244,3831,corporacion universitaria comfacauca - unicomfacauca,principal,corporacion,privada,escuela tecnologica,cauca,popayan,no,2.4411,-76.6061,6
+245,3834,corporacion tecnologica catolica de occidente - tecoc -,principal,corporacion,privada,institucion tecnologica,antioquia,santa fe de antioquia,no,6.5564,-75.8275,2
+246,3901,escuela de formacion de infanteria de marina,principal,nacional,oficial,institucion tecnologica,sucre,coveñas,si,9.4014,-75.68,1
+247,3902,escuela  militar de suboficiales sargento inocencio chinca,principal,nacional,oficial,institucion tecnologica,cundinamarca,nilo,no,4.3069,-74.62,1
+248,4101,instituto de educacion tecnica profesional de roldanillo,principal,departamental,oficial,institucion tecnica profesional,valle del cauca,roldanillo,no,4.4136,-76.1547,1
+249,4102,instituto nacional de formacion tecnica profesional de san juan del cesar,principal,nacional,oficial,institucion tecnica profesional,la guajira,san juan del cesar,no,10.7708,-73.0031,1
+250,4106,instituto nacional de formacion tecnica profesional de san andres,principal,nacional,oficial,institucion tecnica profesional,archipielago de san andres providencia y santa catalina,san andres,no,12.5847,-81.7006,6
+251,4106,instituto nacional de formacion tecnica profesional de san andres,principal,nacional,oficial,institucion tecnica profesional,archipielago de san andres providencia y santa catalina,san andres,no,6.9033,-75.6825,6
+252,4106,instituto nacional de formacion tecnica profesional de san andres,principal,nacional,oficial,institucion tecnica profesional,archipielago de san andres providencia y santa catalina,san andres,no,6.8115,-72.8493,6
+253,4107,instituto tecnico agricola ita,principal,municipal,oficial,institucion tecnica profesional,valle del cauca,guadalajara de buga,no,3.9036,-76.2986,3
+254,4108,escuela tecnologica instituto tecnico central,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+255,4109,instituto tecnico nacional de comercio simon rodriguez - intenalco,principal,nacional,oficial,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
+256,4110,instituto tolimense de formacion tecnica profesional,principal,nacional,oficial,institucion tecnica profesional,tolima,espinal,no,4.1486,-74.8819,2
+257,4111,instituto nacional de formacion tecnica profesional - humberto velasquez garcia,principal,departamental,oficial,institucion tecnica profesional,magdalena,cienaga,no,11.0104,-74.25,1
+258,4112,colegio integrado nacional oriente de caldas - ies cinoc,principal,departamental,oficial,institucion tecnica profesional,caldas,pensilvania,no,5.384,-75.1612,1
+259,4301,unidad tecnica profesional de sevilla-uniteps-,principal,municipal,oficial,institucion tecnica profesional,valle del cauca,sevilla,no,4.2642,-75.9309,1
+260,4701,fundacion academia de dibujo profesional,principal,fundacion,privada,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
+261,4702,fundacion de educacion superior san jose -fessanjose-,principal,fundacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+262,4704,fundacion para la educacion superior real de colombia,principal,fundacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+263,4705,fundacion centro de educacion superiorinvestigacion y profesionalizacion -cedinpro-,principal,fundacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+264,4708,fundacion escuela colombiana de hoteleria y turismo-ecotet-,principal,fundacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+265,4709,institucion universitaria eam,principal,fundacion,privada,escuela tecnologica,quindio,armenia,no,4.5389,-75.6725,10
+266,4709,institucion universitaria eam,principal,fundacion,privada,escuela tecnologica,quindio,armenia,no,6.1564,-75.7858,10
+267,4710,fundacion politecnico minuto de dios - tec md,principal,fundacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+268,4714,fundacion interamericana tecnica-fit-,principal,fundacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+269,4719,fundacion de educacion superior nueva america,principal,fundacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+270,4721,fundacion universitaria horizonte,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+271,4726,fundacion universitaria san mateo - san mateo educacion superior,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+272,4727,politecnico internacional institucion de educacion superior,principal,fundacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+273,4801,corporacion academia superior de artes,principal,corporacion,privada,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+274,4803,corporacion politecnico colombo andino,principal,corporacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+275,4805,corporacion tecnica de colombia -corpotec-,principal,corporacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+276,4806,corporacion centro de estudios artisticos y tecnicos-ceart-,principal,corporacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+277,4808,corporacion regional de educacion superior-cres-de cali,principal,corporacion,privada,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
+278,4810,corporacion universitaria cenda,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+279,4811,corporacion de estudios superiores salamandra,principal,corporacion,privada,institucion tecnica profesional,valle del cauca,cali,no,3.44,-76.5197,23
+280,4812,corporacion de educacion superior suramerica,principal,corporacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+281,4813,corporacion unificada nacional de educacion superior-cun-,principal,corporacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+282,4817,corporacion educativa del litoral,principal,corporacion,privada,institucion tecnica profesional,atlantico,barranquilla,no,10.9639,-74.7964,16
+283,4818,corporacion universitaria latinoamericana - cul,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+284,4822,corporacion escuela de artes y letras,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+285,4825,corporacion instituto de administracion y finanzas - ciaf,principal,corporacion,privada,institucion tecnica profesional,risaralda,pereira,no,4.8143,-75.6946,6
+286,4827,corporacion educativa instituto tecnico superior de artes ideartes,principal,corporacion,privada,institucion tecnica profesional,antioquia,medellin,no,6.2447,-75.5748,34
+287,4829,corporacion interamericana de educacion superior-corpocides,principal,corporacion,privada,institucion tecnica profesional,santander,bucaramanga,no,7.1186,-73.1161,14
+288,4832,corporacion instituto superior de educacion social-ises-,principal,corporacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+289,4835,corporacion universitaria taller cinco centro de diseño,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+290,4837,corporacion universitaria de ciencias empresariales educacion y salud -corsalud-,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+291,5801,corporacion escuela tecnologica del oriente,principal,corporacion,privada,escuela tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
+292,5802,universidad ecci,principal,corporacion,privada,universidad,bogota d.c.,bogota,no,4.6126,-74.0705,122
+293,9102,escuela de suboficiales de la fuerza aerea colombiana andres m. diaz,principal,nacional,oficial,institucion tecnologica,cundinamarca,madrid,si,4.7306,-74.2639,2
+294,9103,escuela militar de aviacion marco fidel suarez,principal,nacional,oficial,escuela tecnologica,valle del cauca,cali,si,3.44,-76.5197,23
+295,9104,escuela militar de cadetes general jose maria cordova,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,si,4.6126,-74.0705,122
+296,9107,escuela de ingenieros militares,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+297,9108,instituto caro y cuervo,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+298,9110,servicio nacional de aprendizaje-sena-,principal,nacional,oficial,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+299,9111,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+300,9112,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+301,9113,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,cundinamarca,mosquera,no,4.7078,-74.2328,2
+302,9113,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,cundinamarca,mosquera,no,2.5078,-78.4517,2
+303,9114,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,quindio,armenia,no,4.5389,-75.6725,10
+304,9114,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,quindio,armenia,no,6.1564,-75.7858,10
+305,9115,servicio nacional de aprendizaje-sena-,seccional,nacional,oficial,institucion tecnologica,valle del cauca,guadalajara de buga,no,3.9036,-76.2986,3
+306,9116,fundacion universitaria claretiana - uniclaretiana,principal,fundacion,privada,escuela tecnologica,choco,quibdo,no,5.6923,-76.6582,2
+307,9117,escuela internacional de estudios superiores - inter,principal,fundacion,privada,institucion tecnica profesional,bogota d.c.,bogota,no,4.6126,-74.0705,122
+308,9119,corporacion universitaria americana,principal,corporacion,privada,escuela tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+309,9120,fundacion universitaria bellas artes,principal,fundacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+310,9122,universidad manuela beltran-umb-,seccional,fundacion,privada,universidad,santander,bucaramanga,si,7.1186,-73.1161,14
+311,9123,universidad antonio nariño,seccional,corporacion,privada,universidad,huila,neiva,no,2.9275,-75.2875,4
+312,9124,tecnologico coredi,principal,fundacion,privada,institucion tecnologica,antioquia,marinilla,no,6.1744,-75.3389,1
+313,9125,universidad de antioquia,seccional,nacional,oficial,universidad,antioquia,santa fe de antioquia,no,6.5564,-75.8275,2
+314,9126,corporacion tecnologica indoamerica,principal,corporacion,privada,institucion tecnologica,atlantico,barranquilla,no,10.9639,-74.7964,16
+315,9127,corporacion universitaria de sabaneta - unisabaneta,principal,corporacion,privada,escuela tecnologica,antioquia,sabaneta,no,6.1508,-75.615,2
+316,9128,lci - fundacion tecnologica,principal,fundacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+317,9129,fundacion universitaria cafam -unicafam,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+318,9131,fundacion universitaria cervantes san agustin - unicervantes,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+319,9132,fundacion universitaria cieo - unicieo,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+320,9899,institucion universitaria de colombia - universitaria de colombia,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+321,9900,corporacion universitaria u de colombia,principal,corporacion,privada,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+322,9902,fundacion universitaria comfenalco santander,principal,fundacion,privada,escuela tecnologica,santander,bucaramanga,no,7.1186,-73.1161,14
+323,9903,corporacion colsubsidio educacion tecnologica - cet,principal,corporacion,privada,institucion tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+324,9904,fundacion universitaria colombo germana,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+325,9905,fundacion escuela tecnologica de neiva - jesus oviedo perez -fet,principal,fundacion,privada,escuela tecnologica,huila,rivera,no,2.7772,-75.2553,1
+326,9906,corporacion universitaria para el desarrollo empresarial y social- cudes,principal,corporacion,privada,escuela tecnologica,valle del cauca,cali,no,3.44,-76.5197,23
+327,9907,fundacion universitaria navarra - uninavarra,principal,fundacion,privada,escuela tecnologica,huila,neiva,no,2.9275,-75.2875,4
+328,9908,universidad del valle,seccional,departamental,oficial,universidad,valle del cauca,guadalajara de buga,no,3.9036,-76.2986,3
+329,9909,universidad del valle,seccional,nacional,oficial,universidad,valle del cauca,zarzal,no,4.3942,-76.0703,1
+330,9910,fundacion universitaria luis g. paez - uniluisgpaez,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+331,9911,universidad del valle,seccional,departamental,oficial,universidad,valle del cauca,buenaventura,no,3.8772,-77.0267,2
+332,9912,universidad del valle,seccional,nacional,oficial,universidad,valle del cauca,palmira,no,3.5394,-76.3036,4
+333,9913,corporacion universitaria de asturias,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+334,9914,eseit - escuela superior de empresa ingenieria y tecnologia,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+335,9915,universitaria virtual internacional,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+336,9918,institucion universitaria conocimiento e innovacion para la justicia - cij,principal,nacional,oficial,escuela tecnologica,cundinamarca,cota,no,4.8094,-74.098,1
+337,9919,tecnologico de energia e innovacion-  e-lernova,principal,fundacion,privada,institucion tecnologica,cundinamarca,chia,no,4.8633,-74.0528,3
+338,9921,fundacion universitaria catolica del sur - unicatolica del sur,principal,fundacion,privada,escuela tecnologica,nariño,pasto,no,1.2136,-77.2811,5
+339,9922,fundacion universitaria comfamiliar risaralda,principal,fundacion,privada,escuela tecnologica,risaralda,pereira,no,4.8143,-75.6946,6
+340,9923,corporacion universitaria de cataluña,principal,corporacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+341,9924,fundacion universitaria internacional de colombia - unincol,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+342,9925,fundacion universitaria fcv,principal,fundacion,privada,escuela tecnologica,santander,floridablanca,no,7.0697,-73.0978,1
+343,9926,fundacion universitaria internacional de la rioja - unir,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+344,9927,institucion universitaria digital de antioquia -iu. digital,principal,departamental,oficial,escuela tecnologica,antioquia,medellin,no,6.2447,-75.5748,34
+345,9928,fundacion universitaria salesiana,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+346,9929,universidad autonoma indigena intercultural - uaiin,principal,nacional,oficial,universidad,cauca,popayan,no,2.4411,-76.6061,6
+347,9930,institucion universitaria comando de educacion y doctrina - cedoc del ejercito nacional,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+348,9931,fundacion universitaria patricio symes,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+349,9932,fundacion universitaria san pablo - unisanpablo,principal,fundacion,privada,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+350,9933,universidad nacional de colombia,seccional,nacional,oficial,universidad,cesar,la paz,no,10.3844,-73.1733,2
+351,9933,universidad nacional de colombia,seccional,nacional,oficial,universidad,cesar,la paz,no,6.1781,-73.5894,2
+352,9934,centro de estudios aeronauticos - cea,principal,nacional,oficial,escuela tecnologica,bogota d.c.,bogota,no,4.6126,-74.0705,122
+353,9935,unidad tecnologica del magdalena medio - utem -,principal,fundacion,privada,institucion tecnologica,santander,barrancabermeja,no,7.0675,-73.8472,3
