@@ -1,4 +1,5 @@
 pydeck == 0.7.1
 numpy
 streamlit
-
+plotly
+plotly.express
