@@ -63,17 +63,17 @@ coorde['LNG'] = coord['LNG']
 # # Execute your app
 # st.title("Javascript example")
 # html(my_html)
-st.markdown("<h1 style='text-align: center;'>Educación superior y educación para el trabajo y el desarrollo humano en Colombia </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Educación Superior e Instituciones de Educación para el Trabajo y el Desarrollo Humano en Colombia </h1>", unsafe_allow_html=True)
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-    ["CONTEXTO", "IETDH", "INSTITUCIONES DE EDUCACIÓN SUPERIOR", 'ESTADISTICAS', 'RESUMEN', 'EXTRAS'])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
+    ["CONTEXTO", "IETDH", "INSTITUCIONES DE EDUCACIÓN SUPERIOR", 'ESTADISTICAS', 'INFO +'])
 
 with tab1:
     image = Image.open('image.jpg')
     st.image(image)
     intro = """<p>La educación superior en Colombia está dividida en dos frentes: Instituciones Educación Superior (IES) e Instituciones de Educación para el Trabajo y el Desarrollo Humano (IETDH), esto con el fin de ofrecer mayor cobertura educativa, desarrollo profesional y alternativas de adquisición de competencias académicas y laborales a la población en general, en especial a los estudiantes de educación media.
-    Sin embargo, Melo, Ramos y Hernández [1] sostienen que: ¨La calidad del sistema de educación superior es heterogénea, ya que coexisten instituciones bien organizadas y reconocidas por su excelencia, con instituciones caracterizadas por bajos niveles de calidad. Además, no existe una conexión clara entre las necesidades del sector productivo y la formación profesional, lo cual constituye una limitación para el desarrollo económico del país¨.
-    Este contexto, sumado a políticas de estado que buscan ampliar la cobertura educativa profesional, hacen que en los últimos 20 años el sector productivo impulse la creación de IETDH con el fin de obtener mano de obra calificada, posteriormente capacitada dentro de la industria para realizar labores propias de un profesional educado en una IES. Esto trae como beneficio una reducción de costos en contratación, ya que los rangos de salarios entre un técnico o tecnólogo de una IETDH y un profesional de una IES son diferentes debido a la diferencia de preparación académica entre uno y otro.
+    Sin embargo, en diferentes estudios respecto a la problemática, se exhibe una falta de conexión entre el conocimiento impartido en estas instituciones y las necesidades del mundo laboral. 
+    Este contexto, sumado a políticas de estado como la ley 30 de 1992 que buscan ampliar la cobertura educativa profesional, hacen que en los últimos 20 años el sector productivo impulse la creación de IETDH con el fin de obtener mano de obra calificada, posteriormente capacitada dentro de la industria para realizar labores propias de un profesional educado en una IES. Esto trae como beneficio una reducción de costos en contratación, ya que los rangos de salarios entre un técnico o tecnólogo de una IETDH y un profesional de una IES son diferentes debido a la diferencia de preparación académica entre uno y otro. A este fenómeno se le conoce como ¨Tercerización de la Educación Superior¨.
     El objetivo de este estudio es analizar las tendencias de crecimiento y cobertura de estos tipos de instituciones educativas, así como la calidad y sus históricos de matrícula.</p>"""
     st.markdown(intro, unsafe_allow_html=True)
 with tab2:
@@ -83,14 +83,14 @@ with tab2:
     df['lat'] = men_ietdh2['LAT']
     df['lon'] = men_ietdh2['LNG']
 
+    departamento = men_ietdh2.groupby(['DEPARTAMENTO'])[['NOMBRE_INSTITUCION']].count().sort_values(
+        'NOMBRE_INSTITUCION', ascending=False).rename(columns={'NOMBRE_INSTITUCION': 'CANTIDAD'}).reset_index()
+
     col1.map(df)
-    data = pd.DataFrame()
-    data['MUNICIPIO'] = men_ietdh2['MUNICIPIO']
-    data['NOMBRE INSTITUCION'] = men_ietdh2['NOMBRE_INSTITUCION']
 
     col2.markdown(
-        "<h5 style='text-align: center;'>Municipios y sus instituciones</h5>", unsafe_allow_html=True)
-    col2.dataframe(data)
+        "<h5 style='text-align: center;'>Cantidad de instituciones por Departamento</h5>", unsafe_allow_html=True)
+    col2.dataframe(departamento)
 
     col2.markdown(
         "<br/><br/><h5 style='text-align: center;'>Cantidad de instituciones por Municipio</h5>", unsafe_allow_html=True)
@@ -137,11 +137,14 @@ with tab3:
     data['MUNICIPIO'] = men_esta['MUNICIPIO']
     data['NOMBRE INSTITUCION'] = men_esta['NOMBRE INSTITUCIÓN']
 
+    departamento1 = men_esta.groupby(['DEPARTAMENTO DOMICILIO'])[['NOMBRE INSTITUCIÓN']].count().sort_values(
+    'NOMBRE INSTITUCIÓN', ascending=False).rename(columns={'NOMBRE INSTITUCIÓN': 'CANTIDAD'}).reset_index()
+
     col1.map(df)
 
     col2.markdown(
-        "<h5 style='text-align: center;'>Municipios y sus instituciones</h5>", unsafe_allow_html=True)
-    col2.dataframe(data)
+        "<h5 style='text-align: center;'>Cantidad de instituciones por Departamento</h5>", unsafe_allow_html=True)
+    col2.dataframe(departamento1)
 
     col2.markdown(
         "<br/><br/><h5 style='text-align: center;'>Cantidad de instituciones por Municipio</h5>", unsafe_allow_html=True)
@@ -531,8 +534,22 @@ with tab4:
                        height=500)
 
     col2.write(fig3)
-with tab6:
+with tab5:
+    col1, col2, col3 = st.columns((1, 2, 1))
+
+    
+
+    col2.write("<h3 style='text-align: center;'>Información complementaria</h3>", unsafe_allow_html=True)
+    col2.write('<iframe width="660" height="415" src="https://www.youtube.com/embed/GcFdINjtPAo?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', unsafe_allow_html=True)
+    col2.write('<iframe width="660" height="415" src="https://www.youtube.com/embed/63FQbzHgKxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', unsafe_allow_html=True)
+
     st.write(
         "<a href='https://github.com/juanjacevedo/Proyecto_analitica_de_datos.git'>Repositorio</a> | <a href='mailto:juan-jo122@hotmail.com'>Contacto</a> ", unsafe_allow_html=True)
 
-    st.write('<iframe width="560" height="315" src="https://www.youtube.com/embed/GcFdINjtPAo?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', unsafe_allow_html=True)
+    st.write("<h6 style='color:powderblue;'>Elaborado por:</h6>",unsafe_allow_html=True)
+    st.write("""<ul>
+<LI>Daniel Alejandro Manco
+<LI>Fabian Gómez 
+<LI>Juan José Acevedo
+<LI>Sebastián Zuluaga
+</ul>""",unsafe_allow_html=True)
