@@ -21,8 +21,6 @@ men_ietdh2 = pd.read_csv('men_ietdh2.csv')
 men_ietdh2 = men_ietdh2.drop(['Unnamed: 0'], axis=1)
 
 # Se crea una función para eliminar las tildes
-
-
 def normalize(s):
     replacements = (
         ("á", "a"),
@@ -58,7 +56,7 @@ coorde['LNG'] = coord['LNG']
 # """
 
 # # Wrapt the javascript as html code
-# my_html = f"<script>{my_js}</script>"
+# my_html = f"<script>{my_js}</script>"  ##Por si queremos usar JavaScript
 
 # # Execute your app
 # st.title("Javascript example")
@@ -66,16 +64,18 @@ coorde['LNG'] = coord['LNG']
 st.markdown("<h1 style='text-align: center;'>Educación Superior e Instituciones de Educación para el Trabajo y el Desarrollo Humano en Colombia </h1>", unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(
-    ["CONTEXTO", "IETDH", "INSTITUCIONES DE EDUCACIÓN SUPERIOR", 'ESTADISTICAS', 'INFO +'])
+    ["CONTEXTO", "IETDH", "INSTITUCIONES DE EDUCACIÓN SUPERIOR", 'ESTADISTICAS', 'INFO +']) #Creación de las pestañas
 
+
+##Primera pestaña de la página 
 with tab1:
     image = Image.open('image.jpg')
-    st.image(image)
+    st.image(image) #Imagen principal
     intro = """<p>La educación superior en Colombia está dividida en dos frentes: Instituciones Educación Superior (IES) e Instituciones de Educación para el Trabajo y el Desarrollo Humano (IETDH), esto con el fin de ofrecer mayor cobertura educativa, desarrollo profesional y alternativas de adquisición de competencias académicas y laborales a la población en general, en especial a los estudiantes de educación media.
     Sin embargo, en diferentes estudios respecto a la problemática, se exhibe una falta de conexión entre el conocimiento impartido en estas instituciones y las necesidades del mundo laboral. 
     Este contexto, sumado a políticas de estado como la ley 30 de 1992 que buscan ampliar la cobertura educativa profesional, hacen que en los últimos 20 años el sector productivo impulse la creación de IETDH con el fin de obtener mano de obra calificada, posteriormente capacitada dentro de la industria para realizar labores propias de un profesional educado en una IES. Esto trae como beneficio una reducción de costos en contratación, ya que los rangos de salarios entre un técnico o tecnólogo de una IETDH y un profesional de una IES son diferentes debido a la diferencia de preparación académica entre uno y otro. A este fenómeno se le conoce como ¨Tercerización de la Educación Superior¨.
     El objetivo de este estudio es analizar las tendencias de crecimiento y cobertura de estos tipos de instituciones educativas, así como la calidad y sus históricos de matrícula.</p>"""
-    st.markdown(intro, unsafe_allow_html=True)
+    st.markdown(intro, unsafe_allow_html=True) #Imprimir en pantalla el texto de las etiquetas <p>
 with tab2:
     col1, col2 = st.columns([3, 1])
 
@@ -84,9 +84,9 @@ with tab2:
     df['lon'] = men_ietdh2['LNG']
 
     departamento = men_ietdh2.groupby(['DEPARTAMENTO'])[['NOMBRE_INSTITUCION']].count().sort_values(
-        'NOMBRE_INSTITUCION', ascending=False).rename(columns={'NOMBRE_INSTITUCION': 'CANTIDAD'}).reset_index()
+        'NOMBRE_INSTITUCION', ascending=False).rename(columns={'NOMBRE_INSTITUCION': 'CANTIDAD'}).reset_index() ##DataFrame con la cantitdad de instituciones por departamento
 
-    col1.map(df)
+    col1.map(df) #Imprimir mapa de IETDH
 
     col2.markdown(
         "<h5 style='text-align: center;'>Cantidad de instituciones por Departamento</h5>", unsafe_allow_html=True)
@@ -94,13 +94,10 @@ with tab2:
 
     col2.markdown(
         "<br/><br/><h5 style='text-align: center;'>Cantidad de instituciones por Municipio</h5>", unsafe_allow_html=True)
-#    col2.dataframe(men_ietdh2.groupby(['DEPARTAMENTO'])[['NOMBRE_INSTITUCION']].count().sort_values('NOMBRE_INSTITUCION', ascending = False).rename(columns = {'NOMBRE_INSTITUCION' : 'CANTIDAD'}).reset_index())
-###################################################
+
     municipio = men_ietdh2.groupby(['MUNICIPIO'])[['NOMBRE_INSTITUCION']].count().sort_values(
         'NOMBRE_INSTITUCION', ascending=False).rename(columns={'NOMBRE_INSTITUCION': 'CANTIDAD'}).reset_index()
     col2.write(municipio)
-
-    # col2.write(municipio_ietdh)
 
     col1.write(pdk.Deck(  # Código para crear el mapa
 
@@ -121,8 +118,8 @@ with tab2:
             radius=5000,
             extruded=True,
             elevation_scale=500,
-            elevation_range=[0, 1000])]
-    ))
+            elevation_range=[0, 1000])] 
+    )) #Mapa de IEDTH por cantidad de instituciones en municipios
 
 with tab3:
     col1, col2 = st.columns([3, 1])
@@ -137,7 +134,7 @@ with tab3:
     data['MUNICIPIO'] = men_esta['MUNICIPIO']
     data['NOMBRE INSTITUCION'] = men_esta['NOMBRE INSTITUCIÓN']
 
-    departamento1 = men_esta.groupby(['DEPARTAMENTO DOMICILIO'])[['NOMBRE INSTITUCIÓN']].count().sort_values(
+    departamento1 = men_esta.groupby(['DEPARTAMENTO'])[['NOMBRE INSTITUCIÓN']].count().sort_values(
     'NOMBRE INSTITUCIÓN', ascending=False).rename(columns={'NOMBRE INSTITUCIÓN': 'CANTIDAD'}).reset_index()
 
     col1.map(df)
@@ -153,20 +150,10 @@ with tab3:
     view_state = pdk.ViewState(
         latitude=4.495415131183657, longitude=-73.5789506384306, zoom=2, bearing=0, pitch=0)
 
-    # Render
-
-    # SCATTERPLOT_LAYER_DATA = "https://raw.githubusercontent.com/visgl/deck.gl-data/master/website/bart-stations.json"
-    # df = pd.read_json(SCATTERPLOT_LAYER_DATA)
-
-    # # Use pandas to calculate additional data
-    # df["exits_radius"] = df["exits"].apply(lambda exits_count: math.sqrt(exits_count))
-
     # Define a layer to display on a map
     municipio1 = men_esta.groupby(['MUNICIPIO'])[['NOMBRE INSTITUCIÓN']].count().sort_values(
         'NOMBRE INSTITUCIÓN', ascending=False).rename(columns={'NOMBRE INSTITUCIÓN': 'CANTIDAD'}).reset_index()
     col2.write(municipio1)
-
-    # col2.write(municipio_ietdh)
 
     col1.write(pdk.Deck(  # Código para crear el mapa
 
@@ -416,7 +403,7 @@ with tab4:
 
     # oficial_DB
     oficial = men_esta[men_esta['SECTOR'] == 'oficial'].reset_index()
-    oficiales = oficial.groupby(['DEPARTAMENTO DOMICILIO'])[['SECTOR']].count(
+    oficiales = oficial.groupby(['DEPARTAMENTO'])[['SECTOR']].count(
     ).sort_values('SECTOR', ascending=False).rename(columns={'SECTOR': 'counts'})
     oficiales['ratio'] = oficiales.apply(
         lambda x: x.cumsum()/oficiales['counts'].sum())
@@ -441,7 +428,7 @@ with tab4:
 ###################################################
 #     # privada_DB
     privada = men_esta[men_esta['SECTOR'] == 'privada'].reset_index()
-    privadas = privada.groupby(['DEPARTAMENTO DOMICILIO'])[['SECTOR']].count(
+    privadas = privada.groupby(['DEPARTAMENTO'])[['SECTOR']].count(
     ).sort_values('SECTOR', ascending=False).rename(columns={'SECTOR': 'counts'})
     privadas['ratio'] = privadas.apply(
         lambda x: x.cumsum()/privadas['counts'].sum())
